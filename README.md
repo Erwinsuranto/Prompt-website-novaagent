@@ -12,6 +12,30 @@
 
 
 
+
+# 
+```
+
+## AI Continuation Rules
+
+Setiap AI yang melanjutkan project WAJIB:
+
+1. Membaca README.md
+2. Membaca CURRENT_STATE.md
+3. Membaca CHANGELOG.md
+4. Membaca IMPLEMENTATION_PLAN.md
+5. Melihat Sprint terakhir
+6. Melihat Next Module
+7. Melanjutkan project
+8. Tidak mengulang sprint sebelumnya
+9. Tidak mengubah arsitektur
+10. Setelah selesai wajib:
+   - Testing
+   - Self Review
+   - Update README
+   - Update CURRENT_STATE
+   - Update CHANGELOG
+`
 # 
 ```
 
