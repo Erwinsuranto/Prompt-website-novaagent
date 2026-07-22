@@ -10,6 +10,61 @@
 
 
 
+
+# 
+```
+LANJUTKAN PROJECT NOVAAGENT YANG SUDAH ADA.
+
+Jangan membuat project baru.
+Jangan membuat ulang arsitektur.
+Jangan mengubah struktur project yang sudah ada.
+
+Sebelum mengerjakan apa pun:
+
+1. Baca README.md sebagai Master Progress Project.
+2. Baca CHANGELOG.md.
+3. Baca seluruh dokumen berikut:
+   - ARCHITECTURE_BLUEPRINT.md
+   - PRD.md
+   - UI_UX_SPEC.md
+   - DATABASE_DESIGN.md
+   - API_SPEC.md
+   - AGENT_SPEC.md
+   - IMPLEMENTATION_PLAN.md
+
+Gunakan dokumen tersebut sebagai Source of Truth.
+
+Kemudian identifikasi:
+
+- Current Phase
+- Current Sprint
+- Current Module
+- Last Completed Task
+- Current Progress
+- Next Module
+- Next Task
+
+Setelah memahami seluruh project, LANJUTKAN PROJECT dari posisi terakhir sesuai README.md.
+
+Jangan mengulang pekerjaan yang sudah selesai.
+
+Jangan mengubah implementasi yang sudah stabil kecuali diperlukan untuk bug fix atau peningkatan yang konsisten dengan arsitektur.
+
+Ikuti seluruh Development Rules NovaAgent.
+
+Setelah menyelesaikan modul:
+
+- lakukan self review
+- testing
+- refactor bila diperlukan
+- update README.md
+- update CHANGELOG.md
+- update checklist sprint
+- tampilkan PROJECT STATUS terbaru
+- tampilkan NEXT MODULE
+- tampilkan NEXT PROMPT agar AI berikutnya dapat langsung melanjutkan project.
+
+`
 # 
 ```
 
