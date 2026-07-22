@@ -6,6 +6,141 @@
 
 
 
+
+
+# 
+```
+Sekarang lanjutkan proyek NovaAgent.
+
+Jangan menulis kode sama sekali.
+
+Berdasarkan:
+- ARCHITECTURE_BLUEPRINT.md
+- PRD.md
+
+Buat dokumentasi enterprise-grade yang akan menjadi acuan implementasi seluruh proyek.
+
+Buat dokumen berikut secara lengkap:
+
+1. UI_UX_SPEC.md
+- Design System
+- Color Palette
+- Typography
+- Icon System
+- Layout System
+- Grid System
+- Responsive Rules
+- Dark & Light Theme
+- Component Library
+- Dashboard UI
+- Login UI
+- Workspace UI
+- Chat UI
+- AI Provider UI
+- File Manager UI
+- Code Editor UI
+- Terminal UI
+- Git UI
+- Deployment UI
+- Settings UI
+- Admin UI
+- Mobile UI
+- Tablet UI
+- Desktop UI
+- User Flow
+- UX Principles
+- Loading State
+- Empty State
+- Error State
+- Notification System
+
+2. DATABASE_DESIGN.md
+- Complete ERD
+- Entity Description
+- Table Definition
+- Column Definition
+- Relationships
+- Constraints
+- Index Strategy
+- Partition Strategy
+- Migration Strategy
+- Backup Strategy
+- Multi Workspace Design
+- Audit Tables
+- Soft Delete Strategy
+
+3. API_SPEC.md
+- REST API
+- WebSocket API
+- Authentication API
+- Workspace API
+- Project API
+- Chat API
+- AI Provider API
+- Agent API
+- File Manager API
+- Editor API
+- Terminal API
+- Git API
+- Build API
+- Deploy API
+- Admin API
+- Response Format
+- Error Codes
+- Rate Limiting
+- Versioning Strategy
+- Authentication Flow
+
+4. AGENT_SPEC.md
+Dokumen ini menjadi otak NovaAgent.
+
+Harus menjelaskan:
+- Agent Architecture
+- Agent Lifecycle
+- Planner Agent
+- Coding Agent
+- Review Agent
+- Debug Agent
+- Build Agent
+- Deployment Agent
+- Documentation Agent
+- Security Agent
+- Git Agent
+- File Agent
+- Terminal Agent
+- Context Manager
+- Memory System
+- Tool Registry
+- Tool Permission
+- Agent Communication
+- Agent Orchestration
+- Multi-Agent Collaboration
+- AI Provider Selection Strategy
+- Model Fallback Strategy
+- Token Optimization Strategy
+- Prompt Management
+- Error Recovery
+- Retry Strategy
+- Safety Rules
+- Approval Rules
+- Workspace Isolation
+- Logging
+- Audit Trail
+- Cost Optimization
+- Performance Optimization
+- Extensibility Strategy
+
+Persyaratan:
+- Enterprise-grade.
+- Modular.
+- Future-proof.
+- Tidak membuat implementasi kode.
+- Tidak membuat file source.
+- Fokus pada spesifikasi teknis dan produk.
+- Semua keputusan harus konsisten dengan ARCHITECTURE_BLUEPRINT.md dan PRD.md.
+- Dokumen harus cukup lengkap sehingga developer dapat mulai implementasi tanpa mengubah arsitektur.
+
+```
 # PRD (Product Requirements Document)
 ```
 Sekarang jangan menulis kode.
