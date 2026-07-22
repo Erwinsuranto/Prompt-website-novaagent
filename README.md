@@ -21,6 +21,325 @@
 LANJUTKAN PROJECT NOVAAGENT YANG SUDAH ADA.
 
 Jangan membuat project baru.
+Jangan mengulang sprint yang sudah selesai.
+Jangan mengubah arsitektur tanpa alasan teknis yang kuat.
+Jangan mengubah roadmap.
+Jangan mengubah struktur folder.
+Jangan membuat implementasi yang bertentangan dengan dokumentasi.
+
+==================================================
+SOURCE OF TRUTH
+==================================================
+
+Sebelum mengerjakan apa pun WAJIB membaca:
+
+README.md
+CURRENT_STATE.md
+CHANGELOG.md
+DECISIONS.md (jika sudah ada)
+
+ARCHITECTURE_BLUEPRINT.md
+PRD.md
+UI_UX_SPEC.md
+DATABASE_DESIGN.md
+API_SPEC.md
+AGENT_SPEC.md
+IMPLEMENTATION_PLAN.md
+
+Seluruh keputusan implementasi HARUS mengikuti dokumen tersebut.
+
+==================================================
+LANJUTKAN PROJECT
+==================================================
+
+Identifikasi terlebih dahulu:
+
+- Current Phase
+- Current Sprint
+- Current Module
+- Last Completed Task
+- Completed Sprint
+- Completed Modules
+- Current Progress
+- Next Module
+- Next Sprint
+
+Kemudian LANJUTKAN PROJECT dari posisi terakhir.
+
+Jangan mengulang pekerjaan yang sudah selesai.
+
+==================================================
+DEVELOPMENT RULES
+==================================================
+
+Kerjakan hanya SATU sprint atau SATU modul.
+
+Urutan wajib:
+
+Planning
+
+Implementation
+
+Self Review
+
+Refactor
+
+Testing
+
+Build
+
+Typecheck
+
+Lint
+
+README Update
+
+CURRENT_STATE Update
+
+CHANGELOG Update
+
+DECISIONS Update (jika ada keputusan baru)
+
+Sprint Checklist Update
+
+Finish
+
+==================================================
+QUALITY GATE
+==================================================
+
+Sprint tidak boleh selesai sebelum:
+
+Build PASS
+
+Typecheck PASS
+
+Lint PASS
+
+Semua test PASS
+
+Tidak ada bug kritis
+
+Tidak ada security issue
+
+Tidak ada duplicate code yang tidak perlu
+
+Tidak ada memory leak
+
+Tidak ada dependency conflict
+
+Jika ada masalah WAJIB diperbaiki dahulu.
+
+==================================================
+README.md
+==================================================
+
+README adalah Master Progress Project.
+
+Selalu update:
+
+Project Status
+
+Current Phase
+
+Current Sprint
+
+Current Module
+
+Overall Progress
+
+Completed Sprint
+
+Completed Modules
+
+Current Module
+
+Next Module
+
+Next Sprint
+
+Project Health
+
+Architecture Version
+
+Database Version
+
+API Version
+
+Agent Version
+
+Developer Notes
+
+Known Issues
+
+TODO
+
+==================================================
+CURRENT_STATE.md
+==================================================
+
+Selalu update:
+
+Current Phase
+
+Current Sprint
+
+Current Module
+
+Completed Sprint
+
+Completed Modules
+
+Next Sprint
+
+Next Module
+
+Build
+
+Typecheck
+
+Lint
+
+Last Update
+
+==================================================
+CHANGELOG.md
+==================================================
+
+Setiap sprint tambahkan:
+
+Tanggal
+
+Sprint
+
+Module
+
+Feature
+
+Files Created
+
+Files Updated
+
+Files Deleted
+
+Database Changes
+
+API Changes
+
+Breaking Changes
+
+Testing Result
+
+Build Result
+
+Typecheck Result
+
+Lint Result
+
+Next Sprint
+
+==================================================
+DECISIONS.md
+==================================================
+
+Jika terdapat keputusan arsitektur atau teknologi baru WAJIB membuat atau memperbarui DECISIONS.md.
+
+Format setiap keputusan:
+
+Decision ID
+
+Title
+
+Date
+
+Status
+
+Context
+
+Problem
+
+Alternatives Considered
+
+Decision
+
+Reason
+
+Benefits
+
+Trade-offs
+
+Impact
+
+Affected Modules
+
+Migration Needed
+
+Notes
+
+Jangan menghapus keputusan lama.
+
+Tambahkan keputusan baru secara berurutan.
+
+==================================================
+PROJECT HEALTH
+==================================================
+
+Setelah sprint selesai tampilkan:
+
+PROJECT STATUS
+
+CURRENT PHASE
+
+CURRENT SPRINT
+
+CURRENT MODULE
+
+OVERALL PROGRESS
+
+COMPLETED MODULES
+
+NEXT MODULE
+
+NEXT SPRINT
+
+BUILD STATUS
+
+TYPECHECK STATUS
+
+LINT STATUS
+
+TEST STATUS
+
+PROJECT HEALTH
+
+==================================================
+IMPORTANT
+==================================================
+
+Project ini akan dikerjakan oleh beberapa AI yang berbeda (DeepSeek, GPT, Claude, Gemini, dan model lainnya).
+
+Seluruh dokumentasi harus selalu sinkron.
+
+Jika README.md, CURRENT_STATE.md, CHANGELOG.md, atau DECISIONS.md belum sesuai dengan kondisi project, perbarui terlebih dahulu sebelum melanjutkan sprint berikutnya.
+
+Selalu lanjutkan project dari status terakhir.
+
+Jangan membuat ulang project.
+
+Jangan mengulang sprint.
+
+Jangan mengubah arsitektur tanpa persetujuan.
+
+Prioritaskan kualitas, konsistensi, dan maintainability dibanding kecepatan implementasi.
+
+```
+
+
+# 
+```
+LANJUTKAN PROJECT NOVAAGENT YANG SUDAH ADA.
+
+Jangan membuat project baru.
 Jangan mengubah arsitektur.
 Jangan mengubah roadmap.
 Jangan mengubah struktur folder.
