@@ -8,6 +8,68 @@
 
 
 
+
+# 
+```
+Sekarang jangan langsung membuat source code.
+
+Semua dokumen berikut sudah tersedia:
+- ARCHITECTURE_BLUEPRINT.md
+- PRD.md
+- UI_UX_SPEC.md
+- DATABASE_DESIGN.md
+- API_SPEC.md
+- AGENT_SPEC.md
+
+Tugas berikutnya adalah membuat IMPLEMENTATION_PLAN.md.
+
+Dokumen ini menjadi master plan implementasi NovaAgent.
+
+Harus mencakup:
+
+1. Development Phases
+2. Module Dependency Graph
+3. Build Order
+4. Milestone
+5. Sprint Planning
+6. Folder Creation Order
+7. Backend Implementation Order
+8. Frontend Implementation Order
+9. Database Migration Order
+10. API Implementation Order
+11. Authentication Implementation
+12. Workspace Implementation
+13. AI Provider Implementation
+14. Agent Engine Implementation
+15. File Manager Implementation
+16. Code Editor Implementation
+17. Terminal Implementation
+18. Git Integration
+19. Build System
+20. Deployment System
+21. Testing Strategy
+22. CI/CD Plan
+23. Documentation Strategy
+24. Release Strategy
+25. Rollback Strategy
+
+Untuk setiap fase jelaskan:
+- tujuan
+- output
+- dependensi
+- estimasi kompleksitas
+- risiko
+- acceptance criteria
+
+Tambahkan checklist implementasi yang sangat rinci sehingga setiap modul dapat dikerjakan satu per satu tanpa mengubah arsitektur.
+
+Jangan membuat source code.
+
+Jangan membuat file project.
+
+Output hanya IMPLEMENTATION_PLAN.md yang akan menjadi acuan seluruh proses development.
+
+```
 # 
 ```
 Sekarang lanjutkan proyek NovaAgent.
