@@ -23,10 +23,96 @@
 
 
 ```
-# 
+# Sprint 16 – AI Provider Runtime & BYOK,
 ```
 
+LANJUTKAN PROJECT NOVAAGENT DARI STATUS TERAKHIR.
 
+Jangan membuat project baru.
+Jangan mengulang sprint yang sudah selesai.
+Jangan mengubah arsitektur.
+Jangan mengubah roadmap tanpa alasan teknis yang kuat.
+
+Sprint 15 telah selesai.
+
+Selanjutnya implementasikan Sprint 16 — AI Provider Runtime & BYOK.
+
+Tujuan sprint ini adalah membuat NovaAgent dapat bekerja dengan dua mode:
+
+1. Default NovaAgent AI
+- Menggunakan AI bawaan NovaAgent jika user belum memiliki API Key.
+
+2. Bring Your Own API Key (BYOK)
+- User dapat menambahkan API Key sendiri.
+- Setelah API Key aktif, seluruh proses AI menggunakan provider tersebut.
+
+Implementasikan Provider Runtime yang mendukung:
+
+- OpenAI
+- Anthropic
+- Gemini
+- DeepSeek
+- Kimi
+- OpenRouter
+- OmniRoute
+- OpenAI Compatible
+
+Implementasikan:
+
+- Provider Adapter
+- Dynamic Provider Loading
+- Provider Health Check
+- Auto Reconnect
+- Streaming Support
+- Tool Calling Support
+- Model Discovery
+- Cost Tracking
+- Token Tracking
+- Fallback Provider
+- Priority Provider
+- Default Provider
+- Workspace Provider
+- User Provider
+- API Key Encryption
+- API Key Validation
+- Test Connection
+- Provider Capability Detection
+
+Tambahkan halaman Provider Runtime yang menampilkan:
+
+- Provider aktif
+- Model aktif
+- Health Status
+- Token Usage
+- Cost Usage
+- Response Time
+- Test Connection
+- Switch Provider
+- Enable/Disable Provider
+
+Integrasikan AI Engine sehingga seluruh request AI selalu melewati Provider Runtime.
+
+Jika Workspace memiliki API Key, gunakan API Key tersebut.
+
+Jika Workspace tidak memiliki API Key, gunakan Default NovaAgent AI.
+
+Pastikan seluruh Tool Calling, Editor, Terminal, Git, Build, File Manager, dan AI Engine bekerja tanpa perubahan meskipun provider diganti.
+
+WAJIB update:
+
+- README.md
+- CURRENT_STATE.md
+- CHANGELOG.md
+- DECISIONS.md
+
+Sprint tidak boleh selesai sebelum:
+
+- Build PASS
+- Typecheck PASS
+- Lint PASS
+- Dokumentasi sinkron
+
+Setelah selesai tampilkan PROJECT STATUS, CURRENT SPRINT, COMPLETED MODULES, NEXT MODULE, NEXT SPRINT, PROJECT HEALTH, dan NEXT PROMPT.
 ```
 # Sprint 15
 ```
