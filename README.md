@@ -14,8 +14,240 @@
 
 
 
+# 
+```
 
 
+```
+# Sprint 11 – Code Editor
+```
+LANJUTKAN PROJECT NOVAAGENT DARI STATUS TERAKHIR.
+
+Jangan membuat project baru.
+Jangan mengulang sprint yang sudah selesai.
+Jangan mengubah arsitektur.
+Jangan mengubah roadmap.
+Jangan mengubah struktur project.
+
+==================================================
+CURRENT STATUS
+==================================================
+
+Sprint terakhir selesai:
+Sprint 10 - File Manager
+
+Sebelum coding WAJIB membaca:
+
+README.md
+CURRENT_STATE.md
+CHANGELOG.md
+DECISIONS.md
+
+ARCHITECTURE_BLUEPRINT.md
+PRD.md
+UI_UX_SPEC.md
+DATABASE_DESIGN.md
+API_SPEC.md
+AGENT_SPEC.md
+IMPLEMENTATION_PLAN.md
+
+Lanjutkan project dari status terakhir.
+
+==================================================
+SPRINT 11
+CODE EDITOR
+==================================================
+
+Target sprint ini adalah membangun Code Editor enterprise yang akan menjadi editor utama NovaAgent.
+
+Backend
+
+- Editor Service
+- File Open API
+- File Save API
+- Auto Save
+- File Lock
+- File Version
+- Diff API
+- Search API
+- Replace API
+- Recent Files
+- Editor Settings
+- Session Restore
+
+Frontend
+
+Gunakan Monaco Editor.
+
+Implementasikan:
+
+- Monaco Editor
+- Multi Tab
+- Split View
+- Syntax Highlight
+- Auto Save
+- Search
+- Replace
+- Go To Line
+- Minimap
+- Line Numbers
+- Word Wrap
+- Theme Light/Dark
+- Font Size
+- Font Family
+- Keyboard Shortcut
+- File Tabs
+- Unsaved Indicator
+- Dirty State
+- Read Only Mode
+- Breadcrumb
+- Right Click Menu
+- Open From File Manager
+- Save To File Manager
+- Restore Last Session
+
+Workspace
+
+Editor harus langsung terintegrasi dengan:
+
+- Workspace
+- File Manager
+- Agent
+- Chat
+- Provider
+- Build System
+
+AI Integration
+
+Persiapkan editor agar nantinya AI dapat:
+
+- membaca file
+- mengedit file
+- membuat file baru
+- rename file
+- delete file
+- highlight perubahan
+- preview diff
+
+Belum perlu implementasi AI editing.
+
+Cukup siapkan interface, event, service, dan extension point.
+
+==================================================
+IMPLEMENTATION RULES
+==================================================
+
+Gunakan:
+
+Hexagonal Architecture
+
+Repository Pattern
+
+Service Layer
+
+Dependency Injection
+
+Interface
+
+Validation
+
+Error Handling
+
+Logging
+
+Workspace Isolation
+
+Permission Check
+
+Modular Design
+
+==================================================
+QUALITY GATE
+==================================================
+
+Sprint tidak boleh selesai sebelum:
+
+Build PASS
+
+Typecheck PASS
+
+Lint PASS
+
+Review:
+
+Bug
+
+Security
+
+Duplicate Code
+
+Performance
+
+Memory Leak
+
+Dependency Conflict
+
+Perbaiki seluruh issue sebelum sprint selesai.
+
+==================================================
+DOCUMENTATION
+==================================================
+
+WAJIB update:
+
+README.md
+
+CURRENT_STATE.md
+
+CHANGELOG.md
+
+DECISIONS.md (jika ada keputusan baru)
+
+==================================================
+OUTPUT
+==================================================
+
+Setelah sprint selesai tampilkan:
+
+PROJECT STATUS
+
+CURRENT PHASE
+
+CURRENT SPRINT
+
+CURRENT MODULE
+
+COMPLETED MODULES
+
+NEXT MODULE
+
+NEXT SPRINT
+
+PROJECT HEALTH
+
+BUILD STATUS
+
+TYPECHECK STATUS
+
+LINT STATUS
+
+TEST STATUS
+
+NEXT PROMPT
+
+==================================================
+IMPORTANT
+==================================================
+
+Seluruh implementasi harus konsisten dengan semua dokumentasi NovaAgent.
+
+Project ini akan dilanjutkan oleh beberapa AI berbeda.
+
+Pastikan seluruh dokumentasi selalu sinkron.
+
+Jangan lanjut ke Sprint 12 sebelum Sprint 11 benar-benar selesai dan seluruh dokumentasi telah diperbarui.
+
+```
 # Sprint 10 – File Manager
 ```
 LANJUTKAN PROJECT NOVAAGENT DARI STATUS TERAKHIR.
