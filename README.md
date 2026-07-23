@@ -14,10 +14,348 @@
 
 
 
-# 
+# Sprint 12 — Git Integration
 ```
 
+LANJUTKAN PROJECT NOVAAGENT DARI STATUS TERAKHIR.
 
+Jangan membuat project baru.
+Jangan mengulang sprint yang sudah selesai.
+Jangan mengubah arsitektur.
+Jangan mengubah roadmap.
+Jangan mengubah struktur folder.
+
+==================================================
+CURRENT STATUS
+==================================================
+
+Sprint terakhir selesai:
+
+✅ Sprint 11 - Code Editor
+
+Project telah memiliki:
+
+- Authentication
+- Workspace
+- Provider Manager
+- Agent Backend
+- API Gateway
+- File Manager
+- Monaco Code Editor
+
+Seluruh dokumentasi sudah tersedia:
+
+README.md
+CURRENT_STATE.md
+CHANGELOG.md
+DECISIONS.md
+
+ARCHITECTURE_BLUEPRINT.md
+PRD.md
+UI_UX_SPEC.md
+DATABASE_DESIGN.md
+API_SPEC.md
+AGENT_SPEC.md
+IMPLEMENTATION_PLAN.md
+
+WAJIB membaca seluruh dokumen sebelum implementasi.
+
+==================================================
+SPRINT 12
+GIT INTEGRATION
+==================================================
+
+Target sprint ini adalah membangun Git Service enterprise yang terintegrasi penuh dengan Workspace, File Manager, Monaco Editor, API Gateway, dan AI Bridge.
+
+==================================================
+BACKEND
+==================================================
+
+Buat Git Service (Fastify + Hexagonal Architecture).
+
+Implementasikan:
+
+- Repository Manager
+- Git Init
+- Git Clone
+- Git Pull
+- Git Push
+- Git Fetch
+- Git Commit
+- Git Status
+- Git Diff
+- Git Log
+- Git Branch
+- Create Branch
+- Delete Branch
+- Rename Branch
+- Checkout Branch
+- Merge Branch
+- Rebase
+- Cherry Pick
+- Stash
+- Tag
+- Remote Manager
+- Credential Manager
+- SSH Key Support
+- HTTPS Authentication
+- Repository Validation
+- Workspace Repository Isolation
+- Audit Log
+
+==================================================
+API
+==================================================
+
+Implementasikan REST API:
+
+GET Repository
+
+POST Clone
+
+POST Init
+
+POST Commit
+
+POST Push
+
+POST Pull
+
+POST Fetch
+
+GET Status
+
+GET Diff
+
+GET Log
+
+GET Branches
+
+POST Checkout
+
+POST Merge
+
+POST Rebase
+
+POST Stash
+
+POST Tag
+
+POST Remote
+
+POST Credentials
+
+==================================================
+FRONTEND
+==================================================
+
+Bangun Git UI lengkap.
+
+Implementasikan:
+
+Git Sidebar
+
+Repository Dashboard
+
+Repository Selector
+
+Clone Dialog
+
+Commit Dialog
+
+Commit History
+
+Changed Files
+
+Diff Viewer
+
+Branch Selector
+
+Branch Manager
+
+Push Button
+
+Pull Button
+
+Fetch Button
+
+Merge Dialog
+
+Conflict Viewer
+
+Repository Settings
+
+Git Activity
+
+Git Status Badge
+
+==================================================
+EDITOR INTEGRATION
+==================================================
+
+Hubungkan Git dengan Monaco Editor.
+
+Implementasikan:
+
+Open Changed File
+
+Inline Diff
+
+File History
+
+Unsaved Indicator
+
+Git Decorations
+
+Current Branch Display
+
+Git Status Indicator
+
+==================================================
+FILE MANAGER INTEGRATION
+==================================================
+
+Hubungkan Git dengan File Manager.
+
+Implementasikan:
+
+Git Status per File
+
+Modified Icon
+
+Added Icon
+
+Deleted Icon
+
+Ignored File
+
+Rename Tracking
+
+==================================================
+AI BRIDGE
+==================================================
+
+Persiapkan interface agar AI nantinya dapat:
+
+- membaca status Git
+- membaca commit
+- membaca diff
+- membuat commit
+- membuat branch
+- checkout branch
+- merge branch
+- push
+- pull
+
+Belum perlu implementasi AI otomatis.
+
+Cukup siapkan interface, service, event, dan extension point.
+
+==================================================
+SECURITY
+==================================================
+
+Implementasikan:
+
+Workspace Isolation
+
+Permission Check
+
+Credential Encryption
+
+SSH Key Storage
+
+Audit Log
+
+Validation
+
+Error Handling
+
+Rate Limiting
+
+==================================================
+QUALITY GATE
+==================================================
+
+Sprint tidak boleh selesai sebelum:
+
+Build PASS
+
+Typecheck PASS
+
+Lint PASS
+
+Review:
+
+Bug
+
+Duplicate Code
+
+Performance
+
+Memory Leak
+
+Security
+
+Dependency Conflict
+
+==================================================
+DOCUMENTATION
+==================================================
+
+WAJIB update:
+
+README.md
+
+CURRENT_STATE.md
+
+CHANGELOG.md
+
+DECISIONS.md (jika ada keputusan baru)
+
+==================================================
+OUTPUT
+==================================================
+
+Setelah sprint selesai tampilkan:
+
+PROJECT STATUS
+
+CURRENT PHASE
+
+CURRENT SPRINT
+
+CURRENT MODULE
+
+COMPLETED MODULES
+
+NEXT MODULE
+
+NEXT SPRINT
+
+PROJECT HEALTH
+
+BUILD STATUS
+
+TYPECHECK STATUS
+
+LINT STATUS
+
+TEST STATUS
+
+NEXT PROMPT
+
+==================================================
+IMPORTANT
+==================================================
+
+Semua implementasi harus tetap mengikuti seluruh dokumentasi NovaAgent.
+
+Project ini akan dikerjakan oleh beberapa AI berbeda.
+
+Pastikan seluruh dokumentasi selalu sinkron.
+
+Jangan lanjut ke Sprint 13 sebelum Sprint 12 benar-benar selesai dan seluruh dokumentasi telah diperbarui.
 ```
 # Sprint 11 – Code Editor
 ```
