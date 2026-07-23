@@ -12,8 +12,274 @@
 
 
 
+# 
+```
 
 
+```
+
+# Sprint 13 — Terminal Service (Sekali Copy)
+```
+
+LANJUTKAN PROJECT NOVAAGENT DARI STATUS TERAKHIR.
+
+Jangan membuat project baru.
+Jangan mengulang sprint yang sudah selesai.
+Jangan mengubah arsitektur.
+Jangan mengubah roadmap.
+
+==================================================
+CURRENT STATUS
+==================================================
+
+Sprint terakhir selesai:
+
+✅ Sprint 12 - Git Integration
+
+Sebelum implementasi:
+
+Pastikan BUILD benar-benar PASS.
+
+Jika ada dependency yang belum terpasang (misalnya @monaco-editor/react atau dependency lain), selesaikan terlebih dahulu sampai Build, Typecheck, dan Lint semuanya PASS.
+
+Setelah itu baru lanjut Sprint 13.
+
+==================================================
+SPRINT 13
+TERMINAL SERVICE
+==================================================
+
+Target sprint ini adalah membangun Terminal Service enterprise yang menjadi dasar AI Agent.
+
+==================================================
+BACKEND
+==================================================
+
+Buat terminal-service menggunakan Fastify + Hexagonal Architecture.
+
+Implementasikan:
+
+- PTY Service
+- Interactive Shell
+- Bash
+- Zsh
+- Fish (jika tersedia)
+- PowerShell abstraction
+- Terminal Session
+- Multi Session
+- Session Restore
+- Session History
+- Command History
+- Environment Manager
+- Workspace Isolation
+- Process Manager
+- Process Tree
+- Kill Process
+- Resize Terminal
+- Terminal Logs
+- Resource Monitoring
+- Timeout
+- Idle Cleanup
+- Terminal Permission
+- Terminal Audit Log
+
+==================================================
+FRONTEND
+==================================================
+
+Gunakan xterm.js
+
+Implementasikan:
+
+- Multi Tab Terminal
+- Split Terminal
+- Terminal Sidebar
+- Terminal Toolbar
+- Resize
+- Font Size
+- Theme
+- Copy
+- Paste
+- Search
+- Clear
+- Download Log
+- Session List
+- Session Restore
+- Terminal Settings
+
+==================================================
+WORKSPACE
+==================================================
+
+Setiap Workspace memiliki terminal sendiri.
+
+Terminal tidak boleh dapat mengakses workspace lain.
+
+==================================================
+EDITOR INTEGRATION
+==================================================
+
+Hubungkan Monaco Editor dengan Terminal.
+
+Implementasikan:
+
+Open Terminal Here
+
+Run Current File
+
+Run Selected File
+
+Open Folder Terminal
+
+==================================================
+FILE MANAGER
+==================================================
+
+Implementasikan:
+
+Open Folder in Terminal
+
+Reveal Current Directory
+
+==================================================
+GIT
+==================================================
+
+Terminal harus dapat menjalankan:
+
+git status
+
+git add
+
+git commit
+
+git pull
+
+git push
+
+git checkout
+
+git branch
+
+git merge
+
+git rebase
+
+==================================================
+AI BRIDGE
+==================================================
+
+Persiapkan interface agar AI nantinya dapat:
+
+- menjalankan command
+- membaca output terminal
+- menghentikan process
+- membuka terminal
+- membuat terminal baru
+- memilih terminal
+- membaca exit code
+
+Belum perlu AI otomatis.
+
+Cukup interface, service, event, dan extension point.
+
+==================================================
+SECURITY
+==================================================
+
+Implementasikan:
+
+Workspace Isolation
+
+Command Validation
+
+Permission Check
+
+Rate Limit
+
+Audit Log
+
+Timeout
+
+Resource Limit
+
+==================================================
+QUALITY GATE
+==================================================
+
+Sprint tidak boleh selesai sebelum:
+
+✅ Build PASS
+
+✅ Typecheck PASS
+
+✅ Lint PASS
+
+Review:
+
+- Bug
+- Security
+- Memory Leak
+- Duplicate Code
+- Performance
+- Dependency Conflict
+
+==================================================
+DOCUMENTATION
+==================================================
+
+WAJIB update:
+
+README.md
+
+CURRENT_STATE.md
+
+CHANGELOG.md
+
+DECISIONS.md (jika ada keputusan baru)
+
+==================================================
+OUTPUT
+==================================================
+
+Setelah sprint selesai tampilkan:
+
+PROJECT STATUS
+
+CURRENT PHASE
+
+CURRENT SPRINT
+
+CURRENT MODULE
+
+COMPLETED MODULES
+
+NEXT MODULE
+
+NEXT SPRINT
+
+PROJECT HEALTH
+
+BUILD STATUS
+
+TYPECHECK STATUS
+
+LINT STATUS
+
+TEST STATUS
+
+NEXT PROMPT
+
+==================================================
+IMPORTANT
+==================================================
+
+Project ini akan dilanjutkan oleh AI lain.
+
+Pastikan seluruh dokumentasi selalu sinkron.
+
+Jangan lanjut ke Sprint 14 sebelum Sprint 13 benar-benar selesai dan seluruh dokumentasi telah diperbarui.
+```
 # Sprint 12 — Git Integration
 ```
 
