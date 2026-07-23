@@ -10,10 +10,385 @@
 
 
 
+
+
+
 # 
 ```
 
 
+```
+# 
+```
+
+
+```
+# 
+```
+
+
+```
+# Sprint 15
+```
+
+LANJUTKAN PROJECT NOVAAGENT DARI STATUS TERAKHIR.
+
+Jangan membuat project baru.
+Jangan mengulang sprint yang sudah selesai.
+Jangan mengubah arsitektur.
+Jangan mengubah roadmap tanpa alasan teknis yang kuat.
+
+==================================================
+CURRENT STATUS
+==================================================
+
+Sprint terakhir selesai:
+
+✅ Sprint 14 - Build Service
+
+Seluruh dokumentasi sudah tersedia:
+
+README.md
+CURRENT_STATE.md
+CHANGELOG.md
+DECISIONS.md
+ARCHITECTURE_BLUEPRINT.md
+PRD.md
+UI_UX_SPEC.md
+DATABASE_DESIGN.md
+API_SPEC.md
+AGENT_SPEC.md
+IMPLEMENTATION_PLAN.md
+
+WAJIB membaca seluruh dokumentasi sebelum implementasi.
+
+==================================================
+SPRINT 15
+AI CODING ENGINE
+==================================================
+
+Sprint ini adalah inti NovaAgent.
+
+Target sprint ini adalah membuat AI benar-benar mampu mengerjakan project menggunakan seluruh service yang sudah dibangun.
+
+==================================================
+AI ENGINE
+==================================================
+
+Bangun ai-engine-service menggunakan Fastify + Hexagonal Architecture.
+
+Implementasikan:
+
+- Planner
+- Task Manager
+- Context Manager
+- Conversation Manager
+- Memory Manager
+- Workspace Context
+- Prompt Builder
+- Tool Registry
+- Tool Executor
+- Tool Permission
+- Model Router
+- Provider Router
+- AI Session
+- AI Job Queue
+- AI Result Cache
+- AI History
+- Token Usage
+- Cost Tracking
+- Retry Strategy
+- Error Recovery
+- Cancellation
+- Streaming Response
+- Approval Workflow
+- Human Approval Mode
+
+==================================================
+REACT LOOP
+==================================================
+
+Implementasikan penuh:
+
+Reason
+
+Action
+
+Observe
+
+Reason
+
+Action
+
+Observe
+
+Finish
+
+Loop harus modular dan dapat diperluas.
+
+==================================================
+TOOLS
+==================================================
+
+Hubungkan AI dengan seluruh service yang sudah ada.
+
+AI dapat:
+
+Workspace
+
+- membaca workspace
+- memilih workspace
+- membuat workspace
+
+File Manager
+
+- membaca file
+- membuat file
+- rename file
+- move file
+- copy file
+- delete file
+- upload file
+- download file
+- search file
+
+Code Editor
+
+- open file
+- edit file
+- save file
+- search
+- replace
+- diff
+- go to line
+
+Git
+
+- status
+- diff
+- commit
+- push
+- pull
+- fetch
+- checkout
+- merge
+- rebase
+- create branch
+
+Terminal
+
+- membuat terminal
+- menjalankan command
+- membaca output
+- menghentikan process
+
+Build
+
+- menjalankan build
+- menjalankan test
+- menjalankan lint
+- membaca build log
+- retry build
+
+==================================================
+AI PROVIDER
+==================================================
+
+Gunakan Provider Service yang sudah ada.
+
+Dukung:
+
+OpenAI
+
+Anthropic
+
+Gemini
+
+DeepSeek
+
+Kimi
+
+OpenRouter
+
+OmniRoute
+
+OpenAI Compatible
+
+BYOK (Bring Your Own API Key)
+
+Jika Workspace memiliki API Key sendiri gunakan API Key tersebut.
+
+Jika tidak ada gunakan Default NovaAgent AI.
+
+Implementasikan Provider Priority:
+
+1. Workspace API Key
+2. User API Key
+3. Default NovaAgent AI
+
+==================================================
+STREAMING
+==================================================
+
+Implementasikan:
+
+Realtime Token Streaming
+
+Realtime Tool Status
+
+Realtime Reasoning Status
+
+Realtime Progress
+
+Realtime Build Status
+
+Realtime Terminal Output
+
+==================================================
+AI MEMORY
+==================================================
+
+Implementasikan:
+
+Short Term Memory
+
+Workspace Memory
+
+Conversation Memory
+
+Task Memory
+
+File Memory
+
+Git Memory
+
+Terminal Memory
+
+Build Memory
+
+==================================================
+APPROVAL
+==================================================
+
+Implementasikan Human Approval Mode.
+
+Sebelum AI:
+
+- delete file
+- overwrite file
+- git push
+- merge
+- menjalankan command berbahaya
+
+AI harus meminta persetujuan user.
+
+==================================================
+SECURITY
+==================================================
+
+Implementasikan:
+
+Workspace Isolation
+
+Permission Check
+
+Audit Log
+
+Encrypted API Key
+
+Rate Limit
+
+Timeout
+
+Resource Limit
+
+==================================================
+QUALITY GATE
+==================================================
+
+Sprint tidak boleh selesai sebelum:
+
+✅ Build PASS
+
+✅ Typecheck PASS
+
+✅ Lint PASS
+
+Review:
+
+Bug
+
+Security
+
+Performance
+
+Memory Leak
+
+Duplicate Code
+
+Dependency Conflict
+
+Perbaiki seluruh issue sebelum sprint selesai.
+
+==================================================
+DOCUMENTATION
+==================================================
+
+WAJIB update:
+
+README.md
+
+CURRENT_STATE.md
+
+CHANGELOG.md
+
+DECISIONS.md
+
+==================================================
+OUTPUT
+==================================================
+
+Setelah sprint selesai tampilkan:
+
+PROJECT STATUS
+
+CURRENT PHASE
+
+CURRENT SPRINT
+
+CURRENT MODULE
+
+COMPLETED MODULES
+
+NEXT MODULE
+
+NEXT SPRINT
+
+PROJECT HEALTH
+
+BUILD STATUS
+
+TYPECHECK STATUS
+
+LINT STATUS
+
+TEST STATUS
+
+NEXT PROMPT
+
+==================================================
+IMPORTANT
+==================================================
+
+Project ini akan dilanjutkan oleh beberapa AI berbeda.
+
+Seluruh dokumentasi harus selalu sinkron.
+
+AI Engine harus menggunakan seluruh service yang telah selesai dibangun (Workspace, Provider, API Gateway, File Manager, Monaco Editor, Git, Terminal, Build Service).
+
+Jangan membuat implementasi sederhana. Bangun AI Coding Engine yang modular, scalable, production-ready, dan mudah diperluas untuk mendukung multi-agent di sprint berikutnya.
+
+Jangan lanjut ke Sprint 16 sebelum Sprint 15 benar-benar selesai, seluruh quality gate PASS, dan seluruh dokumentasi telah diperbarui.
 ```
 
 # Selanjutnya: Sprint 14 — Build Service
