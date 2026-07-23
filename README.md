@@ -10,11 +10,212 @@
 
 
 
-
-
 # 
 ```
 
+
+```
+
+# Selanjutnya: Sprint 14 — Build Service
+```
+LANJUTKAN PROJECT NOVAAGENT DARI STATUS TERAKHIR.
+
+Sebelum mengerjakan apa pun:
+
+1. Selesaikan update README.md, CURRENT_STATE.md, CHANGELOG.md, dan DECISIONS.md untuk Sprint 13.
+2. Pastikan Build PASS, Typecheck PASS, dan Lint PASS.
+3. Setelah seluruh dokumentasi sinkron, lanjutkan Sprint 14.
+
+==================================================
+SPRINT 14
+BUILD SERVICE
+==================================================
+
+Target sprint ini adalah membangun Build Service enterprise yang dapat menjalankan, memonitor, dan mengelola proses build project dalam setiap workspace.
+
+==================================================
+BACKEND
+==================================================
+
+Buat build-service (Fastify + Hexagonal Architecture).
+
+Implementasikan:
+
+- Build Service
+- Task Runner
+- Build Queue
+- Job Scheduler
+- Build Session
+- Build History
+- Build Log
+- Real-time Build Output
+- Process Manager
+- Artifact Manager
+- Environment Variables
+- Exit Code Tracking
+- Retry Build
+- Cancel Build
+- Parallel Build
+- Workspace Isolation
+
+==================================================
+SUPPORTED COMMANDS
+==================================================
+
+Implementasikan dukungan:
+
+npm install
+npm run dev
+npm run build
+npm run test
+npm run lint
+
+pnpm install
+pnpm dev
+pnpm build
+pnpm test
+pnpm lint
+
+yarn install
+yarn dev
+yarn build
+
+bun install
+bun run
+
+custom command
+
+==================================================
+FRONTEND
+==================================================
+
+Bangun Build UI lengkap.
+
+Implementasikan:
+
+- Build Dashboard
+- Build History
+- Build Console
+- Live Output
+- Progress Bar
+- Status Badge
+- Running Jobs
+- Failed Jobs
+- Success Jobs
+- Retry Button
+- Cancel Button
+- Build Detail
+- Build Artifact
+- Search Build
+- Filter Build
+
+==================================================
+TERMINAL INTEGRATION
+==================================================
+
+Build menggunakan Terminal Service.
+
+Semua output harus tampil secara real-time melalui WebSocket.
+
+==================================================
+EDITOR INTEGRATION
+==================================================
+
+Jika build gagal:
+
+- tampilkan file error
+- tampilkan line number
+- buka Monaco Editor pada posisi error
+
+==================================================
+GIT INTEGRATION
+==================================================
+
+Tampilkan:
+
+- Commit yang sedang dibangun
+- Branch
+- Author
+- Commit Message
+
+==================================================
+AI BRIDGE
+==================================================
+
+Persiapkan interface agar AI nantinya dapat:
+
+- menjalankan build
+- membaca output build
+- menganalisis error
+- menjalankan test
+- membaca hasil test
+- retry build
+
+Belum perlu implementasi AI otomatis.
+
+==================================================
+SECURITY
+==================================================
+
+Implementasikan:
+
+Workspace Isolation
+
+Permission Check
+
+Audit Log
+
+Timeout
+
+Resource Limit
+
+Rate Limiting
+
+==================================================
+QUALITY GATE
+==================================================
+
+Sprint tidak boleh selesai sebelum:
+
+Build PASS
+
+Typecheck PASS
+
+Lint PASS
+
+Semua dokumentasi diperbarui.
+
+==================================================
+OUTPUT
+==================================================
+
+Setelah selesai tampilkan:
+
+PROJECT STATUS
+
+CURRENT PHASE
+
+CURRENT SPRINT
+
+CURRENT MODULE
+
+COMPLETED MODULES
+
+NEXT MODULE
+
+NEXT SPRINT
+
+PROJECT HEALTH
+
+BUILD STATUS
+
+TYPECHECK STATUS
+
+LINT STATUS
+
+TEST STATUS
+
+NEXT PROMPT
 
 ```
 
