@@ -16,6 +16,201 @@
 
 
 
+# Sprint 10 – File Manager
+```
+LANJUTKAN PROJECT NOVAAGENT DARI STATUS TERAKHIR.
+
+Jangan membuat project baru.
+Jangan mengulang sprint yang sudah selesai.
+Jangan mengubah arsitektur.
+Jangan mengubah roadmap.
+
+==================================================
+CURRENT STATUS
+==================================================
+
+Project : NovaAgent
+
+Sprint terakhir selesai:
+Sprint 9 - API Gateway
+
+Seluruh dokumentasi sudah tersedia:
+
+- README.md
+- CURRENT_STATE.md
+- CHANGELOG.md
+- DECISIONS.md
+- ARCHITECTURE_BLUEPRINT.md
+- PRD.md
+- UI_UX_SPEC.md
+- DATABASE_DESIGN.md
+- API_SPEC.md
+- AGENT_SPEC.md
+- IMPLEMENTATION_PLAN.md
+
+Baca seluruh dokumen tersebut sebelum mengimplementasikan kode.
+
+==================================================
+SPRINT 10
+FILE MANAGER
+==================================================
+
+Target sprint ini adalah membangun File Manager enterprise yang akan menjadi dasar seluruh AI Agent.
+
+Backend:
+
+- File Service
+- Folder Service
+- Upload
+- Download
+- Rename
+- Delete
+- Move
+- Copy
+- Create Folder
+- Recursive Folder Tree
+- File Metadata
+- Search
+- Pagination
+- Sorting
+- Filter
+- Storage abstraction
+- Permission checking
+- Workspace isolation
+- Audit log
+- Soft delete
+- Restore file
+- File version metadata
+
+Frontend:
+
+- File Explorer
+- Folder Tree
+- Breadcrumb
+- Context Menu
+- Drag & Drop
+- Upload Dialog
+- Rename Dialog
+- Delete Confirmation
+- Search Box
+- Empty State
+- Loading State
+- File Icons
+- Multi Select
+- Right Click Menu
+- Preview Panel
+- Responsive Layout
+
+API:
+
+- CRUD File
+- CRUD Folder
+- Upload API
+- Download API
+- Move API
+- Copy API
+- Search API
+- Restore API
+
+==================================================
+IMPLEMENTATION RULES
+==================================================
+
+Ikuti Hexagonal Architecture.
+
+Semua module harus modular.
+
+Gunakan dependency injection.
+
+Jangan hardcode.
+
+Gunakan interface.
+
+Gunakan repository pattern.
+
+Gunakan service abstraction.
+
+Gunakan validation.
+
+Gunakan error handling.
+
+Gunakan logging.
+
+Gunakan audit.
+
+==================================================
+QUALITY
+==================================================
+
+Sprint tidak boleh selesai sebelum:
+
+✅ Build PASS
+
+✅ Typecheck PASS
+
+✅ Lint PASS
+
+Review:
+
+- Bug
+- Security
+- Duplicate code
+- Memory leak
+- Performance
+- Dependency
+
+Perbaiki semua issue sebelum sprint selesai.
+
+==================================================
+DOCUMENTATION
+==================================================
+
+Setelah selesai WAJIB update:
+
+README.md
+
+CURRENT_STATE.md
+
+CHANGELOG.md
+
+DECISIONS.md (jika ada keputusan arsitektur baru)
+
+==================================================
+OUTPUT
+==================================================
+
+Setelah sprint selesai tampilkan:
+
+PROJECT STATUS
+
+CURRENT PHASE
+
+CURRENT SPRINT
+
+CURRENT MODULE
+
+COMPLETED MODULES
+
+NEXT MODULE
+
+NEXT SPRINT
+
+PROJECT HEALTH
+
+BUILD STATUS
+
+TYPECHECK STATUS
+
+LINT STATUS
+
+TEST STATUS
+
+NEXT PROMPT
+
+Jangan melanjutkan ke Sprint 11 sebelum Sprint 10 benar-benar selesai dan seluruh dokumentasi telah diperbarui.
+
+```
+
 # 
 ```
 LANJUTKAN PROJECT NOVAAGENT YANG SUDAH ADA.
