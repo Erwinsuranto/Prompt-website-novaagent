@@ -10,8 +10,11 @@
 
 
 
+# 
+```
 
 
+```
 
 # 
 ```
@@ -21,6 +24,141 @@
 # 
 ```
 
+
+```
+# 
+```
+LANJUTKAN PROJECT NOVAAGENT DARI KONDISI REPOSITORY SAAT INI.
+
+JANGAN membuat project baru.
+JANGAN mengulang sprint yang sudah selesai.
+JANGAN mengubah arsitektur tanpa alasan teknis.
+JANGAN langsung mengerjakan Sprint 16.
+
+LANGKAH PERTAMA WAJIB ADALAH AUDIT MENYELURUH.
+
+Lakukan audit terhadap seluruh repository dan bandingkan dengan:
+
+- ARCHITECTURE_BLUEPRINT.md
+- PRD.md
+- IMPLEMENTATION_PLAN.md
+- AGENT_SPEC.md
+- API_SPEC.md
+- DATABASE_DESIGN.md
+- UI_UX_SPEC.md
+- README.md
+- CURRENT_STATE.md
+- CHANGELOG.md
+- DECISIONS.md
+
+Audit seluruh project meliputi:
+
+1. Monorepo structure
+2. Hexagonal Architecture
+3. Dependency antar service
+4. Workspace isolation
+5. Authentication & RBAC
+6. AI Provider Service
+7. AI Engine
+8. Agent Service
+9. File Service
+10. Editor Service
+11. Git Service
+12. Terminal Service
+13. Build Service
+14. Notification Service
+15. API Gateway
+16. Frontend
+17. Database Schema
+18. Prisma Migration
+19. Docker Compose
+20. Nginx
+21. Environment Variables
+22. WebSocket
+23. Tool Calling
+24. AI Bridge
+25. Provider Runtime
+26. Build Pipeline
+27. Security
+28. Documentation
+29. README consistency
+30. CURRENT_STATE consistency
+31. CHANGELOG consistency
+32. DECISIONS consistency
+
+WAJIB menemukan:
+
+- Bug
+- Missing implementation
+- TODO yang tertinggal
+- Duplicate code
+- Dead code
+- Wrong architecture
+- Memory leak
+- Race condition
+- Security issue
+- Performance bottleneck
+- Naming inconsistency
+- Folder inconsistency
+- API inconsistency
+- Prisma inconsistency
+- Frontend inconsistency
+- Build issue
+- Type issue
+- Lint issue
+- Documentation mismatch
+
+Jalankan seluruh verifikasi:
+
+pnpm install
+pnpm prisma generate
+pnpm typecheck
+pnpm lint
+pnpm build
+pnpm test (jika tersedia)
+
+JANGAN memperbaiki apa pun sebelum seluruh audit selesai.
+
+Setelah audit selesai tampilkan:
+
+1. Audit Summary
+2. Critical Issues
+3. Medium Issues
+4. Minor Issues
+5. Missing Modules
+6. Missing APIs
+7. Missing UI
+8. Missing Documentation
+9. Security Findings
+10. Performance Findings
+11. Architecture Findings
+12. Sprint Progress (%)
+13. Recommendation
+
+Jika hasil audit menunjukkan repository sehat dan tidak ada masalah kritis, BARU lanjut otomatis ke Sprint 16 sesuai IMPLEMENTATION_PLAN.md.
+
+Setelah Sprint 16 selesai WAJIB:
+
+- Build PASS
+- Typecheck PASS
+- Lint PASS
+- Test PASS (jika tersedia)
+- README.md diperbarui
+- CURRENT_STATE.md diperbarui
+- CHANGELOG.md diperbarui
+- DECISIONS.md diperbarui
+
+Kemudian tampilkan:
+
+PROJECT STATUS
+CURRENT SPRINT
+COMPLETED MODULES
+NEXT MODULE
+NEXT SPRINT
+PROJECT HEALTH
+NEXT PROMPT
+
+Jangan pernah membuat implementasi fiktif. Semua klaim harus berasal dari hasil pemeriksaan repository yang sebenarnya.
 
 ```
 # Sprint 16 – AI Provider Runtime & BYOK,
