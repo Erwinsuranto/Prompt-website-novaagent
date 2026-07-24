@@ -19,7 +19,19 @@
 # 
 ```
 
+Lanjutkan project NovaAgent dari status repository saat ini.
 
+Jangan langsung mengerjakan Sprint 17.
+
+Pertama:
+1. Audit repository dan bandingkan dengan CURRENT_STATE.md, README.md, CHANGELOG.md, DECISIONS.md, dan IMPLEMENTATION_PLAN.md.
+2. Verifikasi bahwa seluruh implementasi Sprint 16 benar-benar ada di source code.
+3. Jalankan pnpm install, prisma generate (jika diperlukan), typecheck, lint, build, dan test (jika tersedia).
+4. Laporkan semua bug, TODO, atau ketidaksesuaian antara dokumentasi dan kode.
+5. Perbaiki seluruh masalah yang ditemukan.
+6. Update kembali dokumentasi bila ada perubahan.
+
+Hanya jika repository benar-benar sehat dan seluruh verifikasi PASS, tampilkan "READY FOR SPRINT 17" beserta ringkasan kondisi project. Jangan mulai Sprint 17 sebelum semua langkah di atas selesai.
 ```
 # 
 ```
