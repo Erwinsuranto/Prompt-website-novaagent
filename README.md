@@ -10,9 +10,207 @@
 
 
 
+
+
 # 
 ```
 
+
+```
+# 
+```
+
+
+```
+# 
+```
+LANJUTKAN PROJECT NOVAAGENT DARI STATUS REPOSITORY TERAKHIR.
+
+JANGAN membuat project baru.
+JANGAN mengulang sprint yang sudah selesai.
+JANGAN mengubah ARCHITECTURE_BLUEPRINT.md.
+JANGAN mengubah kontrak API yang sudah stabil.
+JANGAN merusak kompatibilitas antar service.
+
+Repository sudah melalui audit dan dinyatakan READY FOR SPRINT 17.
+
+====================================================
+SPRINT 17 — DEPLOYMENT SERVICE + ADMIN PANEL
+====================================================
+
+TARGET
+
+Bangun Deployment Service dan Admin Panel enterprise agar NovaAgent siap dipakai secara production.
+
+====================================================
+DEPLOYMENT SERVICE
+====================================================
+
+Buat services/deployment-service menggunakan Fastify + Hexagonal Architecture.
+
+Implementasikan:
+
+- Deployment CRUD
+- Deployment History
+- Deployment Status
+- Environment Management
+- Docker Deployment
+- Docker Compose Generator
+- Health Check
+- Rollback Deployment
+- Deployment Logs
+- Deployment Queue
+- Deployment Progress
+- Deployment Artifact
+- Deployment Validation
+- Workspace Deployment Isolation
+
+Tambahkan:
+
+- Prisma repository
+- Domain entities
+- Ports
+- Use cases
+- REST API
+- Zod validation
+- JWT auth
+- RBAC
+
+====================================================
+ADMIN PANEL
+====================================================
+
+Tambahkan halaman:
+
+/admin
+
+Dashboard berisi:
+
+- Workspace Count
+- User Count
+- Agent Count
+- AI Provider Count
+- Deployment Count
+- Build Count
+- Notification Count
+- Storage Usage
+- Active Sessions
+- CPU
+- RAM
+- Disk
+- Queue
+- WebSocket
+- Health Status
+
+====================================================
+ADMIN MENU
+====================================================
+
+Users
+Workspaces
+Providers
+Agents
+Deployments
+Builds
+Notifications
+Storage
+Logs
+Audit
+Monitoring
+Settings
+
+====================================================
+MONITORING
+====================================================
+
+Tambahkan dashboard monitoring:
+
+- Service Health
+- Docker Container Status
+- Database Status
+- Redis Status
+- MinIO Status
+- Queue Status
+- API Gateway Status
+- AI Provider Status
+
+====================================================
+SYSTEM SETTINGS
+====================================================
+
+Kelola:
+
+- Default NovaAgent AI
+- Workspace BYOK
+- Default Provider
+- Rate Limit
+- JWT
+- Storage
+- SMTP
+- WebSocket
+- Logging
+- Feature Flags
+
+====================================================
+PERSIAPAN BYOK
+====================================================
+
+JANGAN implementasikan penuh dulu.
+
+Siapkan arsitektur agar setiap Workspace dapat menggunakan:
+
+- API Key sendiri
+- Default NovaAgent AI bila API Key kosong
+
+Pastikan AI Engine, Tool Calling, Editor, Terminal, Git, Build, File Manager, dan Agent tidak perlu diubah ketika provider diganti.
+
+====================================================
+VERIFIKASI
+====================================================
+
+WAJIB menjalankan:
+
+pnpm install
+pnpm prisma generate
+pnpm typecheck
+pnpm lint
+pnpm build
+
+Perbaiki seluruh error sebelum sprint dianggap selesai.
+
+====================================================
+WAJIB UPDATE
+====================================================
+
+README.md
+
+CURRENT_STATE.md
+
+CHANGELOG.md
+
+DECISIONS.md
+
+IMPLEMENTATION_PLAN.md
+
+====================================================
+OUTPUT AKHIR
+====================================================
+
+PROJECT STATUS
+
+CURRENT SPRINT
+
+COMPLETED MODULES
+
+NEXT MODULE
+
+NEXT SPRINT
+
+PROJECT HEALTH
+
+NEXT PROMPT
+
+Sprint tidak boleh selesai apabila Build, Typecheck, dan Lint belum PASS.
 
 ```
 
