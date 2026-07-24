@@ -24,7 +24,157 @@
 # 
 ```
 
+LANJUTKAN PROJECT NOVAAGENT DARI STATUS TERAKHIR.
 
+JANGAN membuat fitur baru.
+JANGAN mengerjakan Sprint 17.
+JANGAN mengubah arsitektur.
+JANGAN refactor kecuali ditemukan bug.
+
+Fokus hanya pada MANUAL INTEGRATION TEST seluruh NovaAgent.
+
+Lakukan pengujian nyata (bukan hanya build/typecheck/lint) terhadap seluruh sistem.
+
+WAJIB TEST:
+
+1. Authentication
+- Register
+- Login
+- Refresh token
+- Logout
+- Forgot password
+- Reset password
+
+2. Workspace
+- Create workspace
+- Rename workspace
+- Invite member
+- Change role
+- Delete workspace
+
+3. AI Provider
+- Tambah provider
+- Edit provider
+- Test connection
+- Ambil daftar model
+- Hapus provider
+
+4. AI Runtime
+- Workspace tanpa API Key → memakai Default NovaAgent AI.
+- Workspace dengan API Key sendiri → memakai API Key Workspace (BYOK).
+- Pastikan pergantian provider tidak mengubah kontrak AI Engine.
+
+5. Agent
+- Create agent
+- Edit agent
+- Delete agent
+- Chat
+- Streaming
+- Tool calling
+
+6. File Manager
+- Upload
+- Download
+- Rename
+- Move
+- Delete
+- Folder tree
+- Search
+
+7. Code Editor
+- Open file
+- Save
+- Multi tab
+- Search
+- Replace
+- Lock file
+
+8. Git
+- Clone
+- Status
+- Commit
+- Branch
+- Diff
+- Push
+- Pull
+
+9. Terminal
+- Open terminal
+- Execute command
+- Resize
+- Reconnect
+- Close session
+
+10. Build Service
+- Create build
+- Monitor progress
+- View logs
+- Cancel build
+
+11. Notification
+- Notification Bell
+- Dropdown
+- Notification Center
+- Real-time WebSocket
+- Mark read
+- Mark all read
+
+12. API Gateway
+Pastikan seluruh route berjalan.
+
+13. Docker
+Pastikan semua container healthy.
+
+14. Database
+Pastikan seluruh migration valid.
+
+15. WebSocket
+Pastikan streaming agent, terminal, notification berjalan.
+
+16. Frontend
+Pastikan seluruh halaman dapat dibuka tanpa error.
+
+17. Security
+Test JWT
+RBAC
+Workspace Isolation
+
+18. Performance
+Pastikan tidak ada memory leak
+Tidak ada query lambat
+Tidak ada error di console browser
+
+WAJIB menghasilkan laporan:
+
+✔ PASS
+⚠ WARNING
+✖ FAILED
+
+untuk setiap modul.
+
+Jika menemukan bug:
+
+- Jelaskan penyebab.
+- Perbaiki.
+- Jalankan ulang test.
+- Pastikan bug benar-benar selesai.
+
+WAJIB update:
+
+- README.md
+- CURRENT_STATE.md
+- CHANGELOG.md
+- DECISIONS.md
+
+Sprint baru TIDAK BOLEH dimulai sebelum seluruh manual integration test selesai dan seluruh bug kritikal diperbaiki.
+
+Setelah selesai tampilkan:
+
+- PROJECT HEALTH
+- BUG SUMMARY
+- FIX SUMMARY
+- MANUAL TEST RESULT
+- READY FOR SPRINT 17 (YES/NO)
 ```
 # 
 ```
