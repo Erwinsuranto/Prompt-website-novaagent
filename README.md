@@ -11,7 +11,6 @@
 
 
 
-
 # 
 ```
 
@@ -20,6 +19,270 @@
 # 
 ```
 
+
+```
+# 
+```
+LANJUTKAN PROJECT NOVAAGENT DENGAN FINAL PRE-SPRINT AUDIT.
+
+JANGAN mengerjakan Sprint 17 terlebih dahulu.
+
+====================================================
+TUJUAN
+====================================================
+
+Lakukan audit menyeluruh terhadap seluruh repository NovaAgent.
+
+Anggap project akan masuk production sehingga semua masalah harus ditemukan sebelum Sprint 17 dimulai.
+
+JANGAN berasumsi semuanya benar hanya karena Build PASS.
+
+====================================================
+AUDIT 1
+REPOSITORY
+====================================================
+
+Periksa:
+
+- Struktur monorepo
+- Folder tidak digunakan
+- File orphan
+- File duplicate
+- Dead code
+- Dead route
+- Dead component
+- Dead service
+- Dead hook
+- Dead utility
+
+Laporkan semuanya.
+
+====================================================
+AUDIT 2
+DEPENDENCY
+====================================================
+
+Periksa:
+
+- unused dependency
+- duplicate dependency
+- outdated dependency
+- unused package
+- dependency conflict
+- circular dependency
+
+Perbaiki bila aman.
+
+====================================================
+AUDIT 3
+TYPESCRIPT
+====================================================
+
+Cari:
+
+- any yang tidak perlu
+- ts-ignore
+- ts-expect-error
+- unsafe cast
+- nullable issue
+- unreachable code
+
+====================================================
+AUDIT 4
+DATABASE
+====================================================
+
+Periksa:
+
+- Prisma schema
+- migration
+- relation
+- cascade
+- index
+- unique
+- transaction
+- repository pattern
+
+====================================================
+AUDIT 5
+API
+====================================================
+
+Periksa:
+
+- endpoint tanpa auth
+- endpoint tidak dipakai
+- frontend memanggil endpoint yang tidak ada
+- backend endpoint yang tidak dipakai frontend
+- validation
+- error handling
+- response consistency
+
+====================================================
+AUDIT 6
+SECURITY
+====================================================
+
+Periksa:
+
+JWT
+RBAC
+Workspace Isolation
+Permission
+Input Validation
+XSS
+CSRF
+SQL Injection
+Secrets
+Hardcoded URL
+Hardcoded Token
+Hardcoded API Key
+
+====================================================
+AUDIT 7
+AI ENGINE
+====================================================
+
+Pastikan:
+
+Provider abstraction bersih.
+
+Workspace BYOK dapat ditambahkan tanpa refactor besar.
+
+Default NovaAgent AI tetap menjadi fallback.
+
+Tool Calling
+Editor
+Terminal
+Git
+Build
+File Manager
+Notification
+Deployment
+
+tetap menggunakan interface yang sama.
+
+====================================================
+AUDIT 8
+PERFORMANCE
+====================================================
+
+Cari:
+
+Memory leak
+
+N+1 query
+
+Slow query
+
+Duplicate render
+
+Duplicate fetch
+
+Infinite rerender
+
+Large bundle
+
+Unused import
+
+====================================================
+AUDIT 9
+FRONTEND
+====================================================
+
+Periksa:
+
+Broken page
+
+Broken route
+
+Broken link
+
+Responsive
+
+Dark mode
+
+Loading state
+
+Error state
+
+Empty state
+
+====================================================
+AUDIT 10
+DOCUMENTATION
+====================================================
+
+Pastikan sinkron:
+
+README.md
+
+CURRENT_STATE.md
+
+CHANGELOG.md
+
+DECISIONS.md
+
+IMPLEMENTATION_PLAN.md
+
+ARCHITECTURE_BLUEPRINT.md
+
+====================================================
+WAJIB JALANKAN
+====================================================
+
+pnpm install
+
+pnpm prisma generate
+
+pnpm typecheck
+
+pnpm lint
+
+pnpm build
+
+jalankan test jika tersedia
+
+====================================================
+OUTPUT
+====================================================
+
+Berikan laporan lengkap:
+
+PASS
+WARNING
+FAILED
+
+Untuk setiap kategori.
+
+Jika menemukan bug:
+
+- perbaiki
+- build ulang
+- test ulang
+- audit ulang
+
+Jangan berhenti sampai repository benar-benar bersih.
+
+Di akhir tampilkan:
+
+PROJECT HEALTH SCORE (%)
+
+TECHNICAL DEBT
+
+SECURITY SCORE
+
+CODE QUALITY SCORE
+
+ARCHITECTURE SCORE
+
+BUG FIX SUMMARY
+
+FILES CHANGED
+
+READY FOR SPRINT 17
+
+Jika masih ada masalah, JANGAN mulai Sprint 17.
 
 ```
 # 
