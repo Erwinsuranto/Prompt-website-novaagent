@@ -19,7 +19,28 @@
 ```
 # 
 ```
+Sprint 23 – Staging & Production Readiness
 
+Audit repository terlebih dahulu, lalu lanjutkan Sprint 23 tanpa mengubah arsitektur.
+
+Target:
+- Siapkan environment Staging lengkap (Docker Compose, env, reverse proxy).
+- Tambahkan deployment validation otomatis.
+- Lengkapi backup & restore database beserta verifikasinya.
+- Tambahkan monitoring dashboard (Grafana + Prometheus) dan alert dasar.
+- Hardening keamanan deployment (headers, rate limit, secrets, CORS, HTTPS readiness).
+- Jalankan end-to-end test pada environment staging.
+- Jalankan pnpm typecheck, pnpm lint, pnpm build, pnpm test hingga semuanya PASS.
+- Perbarui README.md, CURRENT_STATE.md, CHANGELOG.md, DECISIONS.md, IMPLEMENTATION_PLAN.md.
+- Commit Sprint 23.
+
+Di akhir tampilkan:
+- Sprint Status
+- Staging Status
+- Build/Test Status
+- Files Changed
+- Commit Hash
+- Next Sprint
 
 ```
 # 
