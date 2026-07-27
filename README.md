@@ -9,13 +9,52 @@
 
 
 
-
-
-
-
 # 
 ```
 
+
+```
+# 
+```
+
+
+```
+# 
+```
+
+
+```
+
+# 
+```
+Sprint 20 - Fix E2E Compatibility
+
+Audit error terbaru dan langsung perbaiki, jangan hanya menjelaskan.
+
+Current error:
+TypeError: Cannot set property crypto of #<Object> which has only a getter
+File:
+apps/e2e/tests/e2e-setup.ts
+
+Requirements:
+1. Perbaiki kompatibilitas Node.js 22+.
+2. Jangan overwrite globalThis.crypto jika sudah tersedia.
+3. Gunakan pendekatan yang aman dan kompatibel dengan Node 18/20/22.
+4. Jalankan ulang seluruh E2E test.
+5. Jika muncul error berikutnya, lanjutkan perbaiki otomatis tanpa bertanya.
+6. Ulangi sampai seluruh E2E PASS.
+7. Setelah E2E PASS, jalankan:
+   - pnpm typecheck
+   - pnpm lint
+   - pnpm build
+   - pnpm test
+8. Sprint 20 hanya boleh selesai jika semua PASS.
+9. Update README.md, CURRENT_STATE.md, CHANGELOG.md, DECISIONS.md bila ada perubahan.
+10. Tampilkan ringkasan:
+    - Error yang diperbaiki
+    - File yang diubah
+    - Hasil test
+    - Sprint 20 Status
 
 ```
 # 
