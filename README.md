@@ -18,6 +18,42 @@
 
 
 ```
+# 
+```
+
+Lanjutkan Sprint 20 Security Remediation dari repository yang sudah ada.
+
+JANGAN mengulang audit atau mengulang implementasi yang sudah selesai.
+
+Audit dulu status repository dan lanjutkan hanya dari posisi terakhir.
+
+Saat ini status:
+- Phase 2–5 sudah selesai.
+- Semua perubahan security remediation sudah diimplementasikan.
+- Tinggal Phase 6:
+  - Update README.md
+  - CURRENT_STATE.md
+  - CHANGELOG.md
+  - DECISIONS.md
+  - IMPLEMENTATION_PLAN.md
+- Setelah dokumentasi selesai:
+  - jalankan pnpm test
+  - pnpm typecheck
+  - pnpm lint
+  - pnpm build
+- Perbaiki jika ada error sampai seluruhnya PASS.
+- Commit hasil sebagai Sprint 20.
+
+Jangan membuat branch baru.
+Jangan reset repository.
+Jangan mengulang pekerjaan yang sudah selesai.
+
+Di akhir tampilkan:
+- Sprint 20 Status
+- Build/Test Status
+- Commit Hash
+- Next Sprint
+```
 
 # 
 ```
