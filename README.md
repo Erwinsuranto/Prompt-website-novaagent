@@ -33,7 +33,72 @@
 ```
 # 
 ```
+STOP IMPLEMENTASI SPRINT 17.
 
+Repository masih gagal typecheck.
+
+JANGAN menambah fitur baru.
+JANGAN mengubah dokumentasi dulu.
+JANGAN menandai Sprint 17 selesai.
+
+Masuk ke BUG FIX MODE.
+
+Lakukan langkah berikut secara berulang sampai seluruh workspace PASS:
+
+1. Jalankan:
+   pnpm typecheck
+
+2. Ambil error pertama saja.
+
+3. Temukan akar penyebabnya.
+
+4. Perbaiki tanpa menggunakan:
+   - any
+   - ts-ignore
+   - ts-expect-error
+   - unsafe type assertion
+
+5. Jalankan kembali:
+   pnpm typecheck
+
+6. Ulangi proses sampai tidak ada lagi type error.
+
+Jika typecheck sudah PASS, lanjutkan:
+
+pnpm lint
+
+Perbaiki seluruh lint error.
+
+Jika lint PASS, lanjutkan:
+
+pnpm build
+
+Perbaiki seluruh build error.
+
+Terus ulangi siklus:
+
+TYPECHECK
+→ FIX
+→ TYPECHECK
+→ LINT
+→ FIX
+→ BUILD
+→ FIX
+
+sampai semuanya PASS.
+
+Jangan mengerjakan fitur Sprint 17 selama masih ada error.
+
+Di akhir tampilkan:
+
+- Root Cause setiap bug
+- File yang diubah
+- Jumlah error yang diperbaiki
+- Typecheck PASS/FAIL
+- Lint PASS/FAIL
+- Build PASS/FAIL
+
+Sprint 17 hanya boleh ditandai selesai apabila seluruh workspace berhasil melewati pnpm typecheck, pnpm lint, dan pnpm build tanpa error.
 
 ```
 # 
