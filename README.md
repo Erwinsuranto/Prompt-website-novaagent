@@ -12,7 +12,45 @@
 # 
 ```
 
+Lanjutkan Sprint 17 dari repository saat ini.
 
+Sesi sebelumnya berhenti karena reflection limit.
+
+Jangan mengulang pekerjaan yang sudah selesai.
+
+Pertama baca:
+
+- README.md
+- CURRENT_STATE.md
+- CHANGELOG.md
+- DECISIONS.md
+- IMPLEMENTATION_PLAN.md
+
+Lalu audit git diff dan commit terakhir untuk mengetahui perubahan terbaru.
+
+Jangan mengulang patch yang sudah diterapkan.
+
+Lanjutkan hanya pekerjaan Sprint 17 yang belum selesai.
+
+Setelah implementasi selesai, jalankan:
+
+pnpm typecheck
+pnpm lint
+pnpm build
+
+Perbaiki seluruh error hingga semuanya PASS.
+
+Update seluruh dokumentasi.
+
+Di akhir tampilkan:
+
+- Sprint 17 Progress (%)
+- Remaining Tasks
+- Build Status
+- Typecheck Status
+- Lint Status
+- Files Changed
+- Ready for Sprint 18 (YES/NO)
 ```
 # 
 ```
