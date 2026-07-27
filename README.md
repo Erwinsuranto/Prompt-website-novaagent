@@ -21,7 +21,30 @@
 
 # 
 ```
+Lanjutkan Sprint 20 Security Remediation dari status repository saat ini.
 
+Jangan mengulang pekerjaan yang sudah selesai.
+
+Lakukan audit repository terlebih dahulu, baca TODO yang tersisa, lalu lanjutkan dari Phase 2d.
+
+Selesaikan secara berurutan:
+- Phase 2d: IDOR audit + workspaceId scope check
+- Phase 2e: command injection remediation
+- Phase 3: MEDIUM security advisories
+- Phase 4: performance advisories
+- Phase 5: jalankan pnpm test, pnpm typecheck, pnpm lint, pnpm build hingga semuanya PASS
+- Phase 6: update README.md, CURRENT_STATE.md, CHANGELOG.md, DECISIONS.md, IMPLEMENTATION_PLAN.md
+- Commit Sprint 20.
+
+Di akhir tampilkan:
+- Sprint 20 Progress (%)
+- Remaining Tasks
+- Security Findings
+- Test Status
+- Typecheck Status
+- Lint Status
+- Build Status
+- Ready for Sprint 21 (YES/NO)
 
 ```
 # 
