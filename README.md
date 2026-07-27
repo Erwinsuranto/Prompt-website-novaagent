@@ -254,7 +254,6 @@ Tampilkan:
 - Next Sprint
 
 Sprint 19 hanya boleh selesai jika seluruh test, build, lint, dan typecheck berhasil tanpa error.
-``
 # 
 ```
 
