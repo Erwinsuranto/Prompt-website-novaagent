@@ -9,11 +9,52 @@
 
 
 
-
-
 # 
 ```
 
+
+```
+# 
+```
+
+
+```
+# 
+```
+Lanjutkan Sprint 17.
+
+Perubahan terakhir gagal karena SEARCH/REPLACE tidak lagi cocok dengan isi file terbaru.
+
+JANGAN mengulangi patch lama.
+
+Sebelum mengedit:
+
+1. Baca ulang seluruh file yang akan diubah dari repository saat ini.
+2. Gunakan isi file terbaru sebagai sumber kebenaran.
+3. Hitung ulang perubahan berdasarkan kondisi repository sekarang.
+4. Jangan menggunakan SEARCH/REPLACE yang berasal dari konteks lama.
+5. Jika sebuah patch gagal, buat patch baru berdasarkan isi file saat ini.
+6. Jangan mengulang refleksi yang sama.
+7. Lanjutkan implementasi Sprint 17 dari progress terakhir.
+
+Setelah selesai jalankan:
+
+pnpm typecheck
+pnpm lint
+pnpm build
+
+Perbaiki seluruh error hingga semuanya PASS.
+
+Update README.md, CURRENT_STATE.md, CHANGELOG.md, DECISIONS.md, dan IMPLEMENTATION_PLAN.md.
+
+Terakhir tampilkan:
+
+- Sprint 17 Progress
+- Remaining Tasks
+- Build Status
+- Typecheck Status
+- Lint Status
+- Project Health
 
 ```
 # 
