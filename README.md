@@ -24,7 +24,26 @@
 ```
 # 
 ```
+Sprint 22 – Observability & Contract Testing Stage 2
 
+Audit repository terlebih dahulu, lalu lanjutkan Sprint 22 tanpa mengubah arsitektur.
+
+Target:
+- Tambahkan Prometheus metrics untuk semua service.
+- Integrasikan OpenTelemetry tracing.
+- Lengkapi health, readiness, dan liveness endpoint.
+- Tambahkan OpenAPI contract validation di CI.
+- Lengkapi contract test untuk seluruh API utama.
+- Perbaiki warning dan dependency vulnerability yang aman diperbaiki.
+- Optimalkan performance (task cleanup, shell spawn, memory, response time) tanpa mengubah behavior.
+- Jalankan pnpm typecheck, pnpm lint, pnpm build, pnpm test, dan pastikan semuanya PASS.
+- Update README.md, CURRENT_STATE.md, CHANGELOG.md, DECISIONS.md, IMPLEMENTATION_PLAN.md.
+- Commit Sprint 22 lalu tampilkan:
+  - Sprint Status
+  - Build/Test Status
+  - Files Changed
+  - Commit Hash
+  - Next Sprint
 
 ```
 # 
