@@ -29,7 +29,163 @@
 # 
 ```
 
+LANJUTKAN PROJECT NOVAAGENT KE SPRINT 18.
 
+Repository sudah di-commit.
+Sprint 17 telah selesai.
+Seluruh workspace telah lulus:
+
+- pnpm typecheck
+- pnpm lint
+- pnpm build
+
+JANGAN mengubah fitur Sprint 1–17 kecuali diperlukan untuk integrasi.
+
+====================================================
+SPRINT 18
+AI AGENT ORCHESTRATION ENGINE
+====================================================
+
+TARGET
+
+Bangun AI Agent Orchestration Layer yang menjadi pusat eksekusi seluruh Agent NovaAgent.
+
+Gunakan Hexagonal Architecture.
+
+====================================================
+AGENT RUNTIME
+====================================================
+
+Implementasikan:
+
+- Agent Runtime
+- Agent Session
+- Agent Context
+- Agent Memory Interface
+- Agent Executor
+- Agent Event Bus
+- Agent Task Queue
+- Agent Scheduler
+- Agent State Machine
+- Agent Lifecycle
+
+====================================================
+WORKFLOW ENGINE
+====================================================
+
+Implementasikan:
+
+- Workflow
+- Step
+- Trigger
+- Action
+- Condition
+- Retry
+- Timeout
+- Parallel Execution
+- Sequential Execution
+
+====================================================
+TOOL EXECUTION
+====================================================
+
+Bangun Tool Registry.
+
+Support:
+
+- File Tool
+- Terminal Tool
+- Git Tool
+- Build Tool
+- Notification Tool
+- Deployment Tool
+
+Gunakan interface sehingga tool baru dapat ditambahkan tanpa mengubah runtime.
+
+====================================================
+AI PROVIDER ABSTRACTION
+====================================================
+
+Pastikan runtime tetap menggunakan abstraction yang sudah ada.
+
+JANGAN hardcode provider.
+
+Persiapkan agar runtime dapat memakai:
+
+- Workspace API Key (BYOK)
+- Default NovaAgent AI sebagai fallback
+
+Tanpa mengubah kode Agent Runtime.
+
+====================================================
+OBSERVABILITY
+====================================================
+
+Tambahkan:
+
+- Execution Log
+- Event Timeline
+- Tool Usage
+- Runtime Metrics
+- Failure Tracking
+- Retry Log
+
+====================================================
+SECURITY
+====================================================
+
+Pastikan:
+
+- Workspace Isolation
+- Permission Check
+- Tool Permission
+- Audit Log
+
+====================================================
+VERIFIKASI
+====================================================
+
+Sebelum Sprint selesai WAJIB menjalankan:
+
+pnpm typecheck
+
+pnpm lint
+
+pnpm build
+
+Perbaiki seluruh error sampai PASS.
+
+====================================================
+DOKUMENTASI
+====================================================
+
+Update:
+
+- README.md
+- CURRENT_STATE.md
+- CHANGELOG.md
+- DECISIONS.md
+- IMPLEMENTATION_PLAN.md
+
+====================================================
+OUTPUT AKHIR
+====================================================
+
+Tampilkan:
+
+- Sprint 18 Summary
+- Files Created
+- Files Modified
+- Agent Runtime Status
+- Workflow Engine Status
+- Tool Registry Status
+- Build Status
+- Typecheck Status
+- Lint Status
+- Project Health
+- Next Sprint
+
+Jangan menandai Sprint 18 selesai apabila masih ada error build, lint, atau typecheck.
 ```
 # 
 ```
