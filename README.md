@@ -7,8 +7,6 @@
 
 
 
-
-
 # 
 ```
 
@@ -23,6 +21,35 @@
 ```
 
 
+```
+# 
+```
+
+
+```
+# 
+```
+
+Sprint 21 – Documentation & Hardening Stage 2
+
+Audit repository terlebih dahulu, lalu lanjutkan Sprint 21 tanpa mengubah arsitektur yang sudah ada.
+
+Target:
+- Tambahkan OpenAPI/Swagger untuk seluruh service API.
+- Rapikan README setiap service (install, env, run, test).
+- Lengkapi RUNBOOK deployment, backup, restore, monitoring, troubleshooting.
+- Lengkapi ADR/DECISIONS yang belum selesai.
+- Rapikan dokumentasi endpoint, workspace, AI Provider, Agent, Gateway, Terminal, Build, Git, File, Notification.
+- Perbaiki warning kecil bila aman tanpa mengubah behavior.
+- Jalankan pnpm typecheck, pnpm lint, pnpm build, pnpm test. Perbaiki jika ada error hingga PASS.
+- Update README.md, CURRENT_STATE.md, CHANGELOG.md, DECISIONS.md, IMPLEMENTATION_PLAN.md.
+
+Sebelum selesai lakukan commit Sprint 21 dan tampilkan:
+- Sprint Status
+- Build/Test Status
+- Files Changed
+- Commit Hash
+- Next Sprint
 ```
 
 # 
