@@ -21,7 +21,20 @@
 # 
 ```
 
+Lanjutkan Sprint 25 dari status terakhir.
 
+Jangan mengulang audit atau pekerjaan yang sudah selesai.
+
+Baca CURRENT_STATE.md, README.md, CHANGELOG.md, DECISIONS.md, IMPLEMENTATION_PLAN.md lalu lanjutkan dari TODO yang belum selesai.
+
+Jika terjadi "Internal server error", anggap hanya sesi yang terputus, bukan pekerjaan hilang. Lanjutkan dari file dan commit terakhir.
+
+Selesaikan:
+- Update dokumentasi Sprint 25.
+- Jalankan pnpm typecheck, pnpm lint, pnpm build, pnpm test hingga PASS.
+- Commit Sprint 25.
+- Push ke origin/main.
+- Tampilkan Project Status, Commit Hash, dan apakah NovaAgent sudah Production Ready.
 ```
 # 
 ```
