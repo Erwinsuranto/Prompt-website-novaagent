@@ -16,7 +16,25 @@
 # 
 ```
 
+Lanjutkan Sprint 26 dari TODO terakhir saja.
 
+Selesaikan berurutan:
+- 05b Monitoring wireframe (Prometheus + Grafana)
+- 05c Settings wireframe
+- 05d Admin Panel wireframe
+- 06 User Journey & State Diagram
+- 07 Content (tone, microcopy, error states)
+- 08 Accessibility (WCAG 2.2 AA)
+- 09 Implementation Guide (Tailwind, Radix, struktur komponen)
+- Update README.md, IMPLEMENTATION_PLAN.md, CURRENT_STATE.md
+
+Jangan mengulang pekerjaan yang sudah selesai.
+Di akhir jalankan:
+pnpm typecheck
+pnpm lint
+pnpm build
+
+Jika ada error, perbaiki sampai PASS lalu tampilkan ringkasan Sprint 26.
 ```
 # 
 ```
