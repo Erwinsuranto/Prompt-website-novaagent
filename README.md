@@ -15,7 +15,25 @@
 
 # 
 ```
+Lanjutkan dari status terakhir.
 
+Jangan audit ulang repository dan jangan mengulang build/test karena semuanya sudah PASS.
+
+Selesaikan hanya TODO terakhir:
+- Tampilkan Final Project Status.
+- Tampilkan Commit Hash terakhir.
+- Berikan Production Ready Verdict beserta alasan singkat.
+- Ringkas seluruh Sprint 1–25 (1–2 kalimat per sprint).
+- Tampilkan daftar fitur utama yang sudah selesai.
+- Tampilkan backlog/future enhancement yang tidak menghalangi production.
+- Simpan ringkasan akhir ke RELEASE.md dan FINAL_REPORT.md.
+- Jika belum, pastikan commit dan push ke origin/main.
+
+Setelah selesai tampilkan:
+PROJECT COMPLETED
+PRODUCTION READY: YES/NO
+FINAL COMMIT
+NEXT ROADMAP
 
 ```
 # 
