@@ -3,6 +3,10 @@
 
 
 
+
+
+
+
 # 
 ```
 
@@ -12,6 +16,69 @@
 ```
 
 
+```
+
+# 
+```
+Sprint 27 – Core UI Components
+
+Audit repository terlebih dahulu.
+Jangan mengulang pekerjaan Sprint 26.
+
+Implementasikan Design System menjadi komponen React yang reusable.
+
+Selesaikan:
+- Button
+- Input
+- Textarea
+- Select
+- Checkbox
+- Radio
+- Switch
+- Badge
+- Avatar
+- Card
+- Alert
+- Modal
+- Drawer
+- Tabs
+- Tooltip
+- Dropdown
+- Table
+- Pagination
+- Skeleton
+- Spinner
+
+Gunakan TypeScript, Tailwind CSS, shadcn/ui, dan design token dari Sprint 26.
+
+Pastikan semua komponen:
+- Mendukung Light/Dark Mode
+- Responsive
+- Accessible (WCAG AA)
+- Memiliki varian dan ukuran
+- Memiliki dokumentasi penggunaan
+
+Jalankan typecheck, lint, build, dan perbaiki semua error hingga PASS.
+Update dokumentasi setelah selesai.
+
+```
+# 
+```
+
+Lanjutkan Sprint 26 dari progress terakhir.
+
+Jangan mengulang dokumen yang sudah selesai.
+
+Fokus menyelesaikan:
+- 01-design-tokens.md
+- 02-color-system.md
+- 03-typography.md
+- 04-spacing-layout.md
+- 05-elevation-motion.md
+
+Pastikan seluruh design token konsisten, reusable, mendukung Light/Dark Mode, Responsive, Accessibility (WCAG AA), serta menjadi acuan implementasi React/Next.js berikutnya.
+
+Setelah selesai, update MASTER_DESIGN_SYSTEM.md sebagai index tanpa mengubah struktur dokumen yang sudah ada.
 ```
 # 
 ```
