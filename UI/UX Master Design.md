@@ -39,9 +39,230 @@
 
 
 ```
-# 
+# Prompt 28 — Multi-Agent Orchestrator
 ```
+# Prompt 28 — Multi-Agent Orchestrator
 
+Continue NovaAgent from the current repository state.
+
+IMPORTANT
+
+- Do NOT rewrite completed modules.
+- Do NOT redesign the UI.
+- Preserve all functionality from Prompt 27.
+- Extend the existing runtime.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Implement a production-ready Multi-Agent Orchestrator.
+
+The orchestrator must coordinate multiple specialized agents to solve a single user request.
+
+==================================================
+1. Agent Registry
+==================================================
+
+Create a central registry.
+
+Support:
+
+- dynamic registration
+- enable/disable agents
+- metadata
+- capabilities
+- version
+- health status
+
+==================================================
+2. Built-in Agents
+==================================================
+
+Implement:
+
+- PlannerAgent
+- CodingAgent
+- ReviewAgent
+- TestingAgent
+- DocumentationAgent
+- TerminalAgent
+- GitAgent
+
+Each agent exposes:
+
+name
+description
+capabilities
+required_tools
+
+==================================================
+3. Planner
+==================================================
+
+Planner receives a request.
+
+Generate execution plan.
+
+Split into subtasks.
+
+Estimate dependencies.
+
+Return execution graph.
+
+==================================================
+4. Orchestrator
+==================================================
+
+Execute plan.
+
+Support:
+
+parallel execution
+
+dependency graph
+
+retry
+
+timeout
+
+cancellation
+
+priority queue
+
+==================================================
+5. Shared Context
+==================================================
+
+Implement shared context.
+
+Agents can exchange:
+
+artifacts
+
+messages
+
+progress
+
+logs
+
+temporary memory
+
+==================================================
+6. Agent Communication
+==================================================
+
+Support:
+
+request
+
+response
+
+broadcast
+
+events
+
+status updates
+
+==================================================
+7. Task Lifecycle
+==================================================
+
+Queued
+
+Planning
+
+Running
+
+Waiting
+
+Completed
+
+Failed
+
+Cancelled
+
+==================================================
+8. Recovery
+==================================================
+
+Retry failed tasks.
+
+Resume interrupted workflow.
+
+Persist orchestration state.
+
+==================================================
+9. Monitoring
+==================================================
+
+Track:
+
+running agents
+
+completed tasks
+
+failed tasks
+
+execution time
+
+tool usage
+
+token usage
+
+==================================================
+10. Documentation
+==================================================
+
+Update:
+
+README.md
+
+CURRENT_STATE.md
+
+IMPLEMENTATION_PLAN.md
+
+CHANGELOG.md
+
+==================================================
+11. Validation
+==================================================
+
+Run until green:
+
+pnpm typecheck
+
+pnpm lint
+
+pnpm test
+
+pnpm build
+
+Fix every issue.
+
+==================================================
+12. Final Report
+==================================================
+
+Output:
+
+Implemented agents
+
+Architecture summary
+
+Files added
+
+Files modified
+
+Test status
+
+Build status
+
+Remaining work
+
+Production readiness
+
+Do not stop until every requirement is complete.
 
 ```
 # 
