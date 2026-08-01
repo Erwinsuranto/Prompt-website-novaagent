@@ -14,7 +14,39 @@
 ```
 # 
 ```
+Audit seluruh hasil Prompt 26.
 
+Jangan menambahkan fitur baru.
+
+Lakukan pemeriksaan menyeluruh terhadap repository saat ini.
+
+Periksa:
+
+1. Semua file yang diubah pada Prompt 26.
+2. Tidak ada placeholder, TODO, FIXME, atau mock implementation yang tertinggal.
+3. Semua import benar dan tidak ada dependency yang rusak.
+4. Tidak ada TypeScript error.
+5. Tidak ada ESLint error.
+6. Tidak ada React hydration issue.
+7. Tidak ada dead code atau duplicate component.
+8. Semua route dapat diakses.
+9. Semua halaman responsive.
+10. Semua design token digunakan secara konsisten.
+11. Semua dokumentasi diperbarui.
+12. Jalankan:
+   - pnpm install
+   - pnpm typecheck
+   - pnpm lint
+   - pnpm build
+13. Perbaiki seluruh error sampai semuanya PASS.
+14. Jangan membuat fitur baru.
+15. Di akhir tampilkan:
+   - Ringkasan hasil audit.
+   - Daftar file yang diperbaiki.
+   - Build status.
+   - Lint status.
+   - Typecheck status.
+   - Persentase production readiness.
 
 ```
 
