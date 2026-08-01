@@ -42,10 +42,170 @@
 
 ```
 
-# 
+# Prompt 30 — Memory Engine & Knowledge System
 ```
 
+# Prompt 30 — Memory Engine & Knowledge System
 
+Continue NovaAgent from the current repository state.
+
+IMPORTANT
+
+- Do NOT rewrite completed modules.
+- Do NOT redesign the UI.
+- Preserve all functionality from Prompts 26–29.
+- Extend the existing architecture.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Implement a production-ready Memory Engine that allows
+NovaAgent to remember projects, previous executions,
+user preferences, coding decisions, and reusable
+knowledge across sessions.
+
+==================================================
+1. Memory Architecture
+==================================================
+
+Implement:
+
+- Working Memory
+- Short-term Memory
+- Long-term Memory
+- Project Memory
+- Session Memory
+
+==================================================
+2. Memory Store
+==================================================
+
+Support:
+
+- SQLite / Prisma persistence
+- versioning
+- timestamps
+- tags
+- metadata
+
+==================================================
+3. Context Builder
+==================================================
+
+Automatically build context from:
+
+- project structure
+- previous tasks
+- commits
+- documentation
+- execution history
+
+==================================================
+4. Knowledge Retrieval
+==================================================
+
+Implement semantic retrieval.
+
+Support:
+
+- file lookup
+- symbol lookup
+- documentation lookup
+- previous solution lookup
+
+==================================================
+5. Decision Memory
+==================================================
+
+Store:
+
+- architectural decisions
+- bug fixes
+- coding conventions
+- reviewer feedback
+- successful solutions
+
+Reuse them automatically.
+
+==================================================
+6. Agent Memory API
+==================================================
+
+Allow every agent to:
+
+read memory
+
+write memory
+
+search memory
+
+summarize memory
+
+==================================================
+7. Automatic Context Compression
+==================================================
+
+Compress old execution history while preserving
+important decisions.
+
+==================================================
+8. Documentation
+==================================================
+
+Update:
+
+README.md
+
+CURRENT_STATE.md
+
+IMPLEMENTATION_PLAN.md
+
+CHANGELOG.md
+
+==================================================
+9. Validation
+==================================================
+
+Run until green:
+
+pnpm typecheck
+
+pnpm lint
+
+pnpm test
+
+pnpm build
+
+Fix every issue.
+
+==================================================
+10. Final Report
+==================================================
+
+Output:
+
+Implemented modules
+
+Memory architecture
+
+Files added
+
+Files modified
+
+Tests added
+
+Build status
+
+Lint status
+
+Typecheck status
+
+Production readiness
+
+Remaining work
+
+Do not stop until every requirement above is complete.
 ```
 
 
