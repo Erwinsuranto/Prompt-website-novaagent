@@ -19,9 +19,200 @@
 
 
 ```
-# 
+# Prompt 34 — Browser Agent & Documentation Intelligence
 ```
+# Prompt 34 — Browser Agent & Documentation Intelligence
 
+Continue NovaAgent from the current repository state.
+
+IMPORTANT
+
+- Do NOT rewrite completed modules.
+- Preserve all functionality from Prompts 26–33.
+- Keep all tests green.
+- Extend the existing architecture.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Implement a Browser Agent capable of retrieving,
+understanding, caching, and citing official
+documentation before generating code.
+
+NovaAgent remains the controller.
+
+==================================================
+1. Browser Agent
+==================================================
+
+Implement BrowserAgent.
+
+Support:
+
+- HTTP/HTTPS browsing
+- HTML parsing
+- Markdown parsing
+- robots.txt awareness
+- configurable timeout
+- retry
+- download cancellation
+
+==================================================
+2. Documentation Sources
+==================================================
+
+Support official documentation for:
+
+- React
+- Next.js
+- TypeScript
+- Node.js
+- Prisma
+- Tailwind
+- Express
+- Fastify
+- Docker
+- Git
+- pnpm
+- npm
+
+Architecture must allow adding new providers.
+
+==================================================
+3. Documentation Search
+==================================================
+
+Implement:
+
+keyword search
+
+page search
+
+heading search
+
+API reference search
+
+version-aware search
+
+==================================================
+4. Documentation Cache
+==================================================
+
+Store:
+
+downloaded pages
+
+metadata
+
+version
+
+timestamp
+
+ETag/Last-Modified
+
+Support refresh and offline reuse.
+
+==================================================
+5. Intelligent Retrieval
+==================================================
+
+Before asking CoderAI to generate code:
+
+Check local memory.
+
+Check documentation cache.
+
+Fetch official documentation if needed.
+
+Return structured context.
+
+==================================================
+6. Citation Engine
+==================================================
+
+Track:
+
+documentation source
+
+page title
+
+section
+
+URL
+
+retrieval time
+
+Include citations in execution report.
+
+==================================================
+7. Integration
+==================================================
+
+PlannerAI may request BrowserAgent.
+
+CoderAI receives retrieved context.
+
+ReviewerAI verifies implementation against
+official documentation when available.
+
+==================================================
+8. Documentation
+==================================================
+
+Update:
+
+README.md
+
+CURRENT_STATE.md
+
+IMPLEMENTATION_PLAN.md
+
+CHANGELOG.md
+
+==================================================
+9. Validation
+==================================================
+
+Run until green:
+
+pnpm typecheck
+
+pnpm lint
+
+pnpm test
+
+pnpm build
+
+Fix every issue.
+
+==================================================
+10. Final Report
+==================================================
+
+Output:
+
+Implemented modules
+
+Supported documentation providers
+
+Files added
+
+Files modified
+
+Tests added
+
+Build status
+
+Lint status
+
+Typecheck status
+
+Production readiness
+
+Remaining work
+
+Do not stop until every requirement above is complete.
 
 ```
 # Prompt 33 — Git Intelligence & Workspace Management
