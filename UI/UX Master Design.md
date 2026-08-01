@@ -29,9 +29,227 @@
 ```
 
 
-# 
+# Prompt 29 — Planning Engine & Autonomous Task Decomposition
 ```
+# Prompt 29 — Planning Engine
 
+Continue NovaAgent from the current repository state.
+
+IMPORTANT
+
+- Do NOT rewrite completed modules.
+- Do NOT redesign the UI.
+- Preserve all functionality from Prompt 28.
+- Extend the existing multi-agent architecture.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Implement an intelligent Planning Engine capable of
+analyzing user goals, generating execution plans,
+assigning agents automatically, and adapting when
+execution changes.
+
+==================================================
+1. Goal Analyzer
+==================================================
+
+Implement Goal Analyzer.
+
+Responsibilities:
+
+- understand user intent
+- detect project type
+- classify task complexity
+- identify required tools
+- estimate execution cost
+- detect missing information
+
+Return structured Goal object.
+
+==================================================
+2. Task Decomposition
+==================================================
+
+Automatically split work into subtasks.
+
+Support:
+
+- sequential tasks
+- parallel tasks
+- conditional branches
+- nested subtasks
+
+Generate dependency graph.
+
+==================================================
+3. Dynamic Agent Assignment
+==================================================
+
+Automatically assign:
+
+PlannerAgent
+
+CodingAgent
+
+ReviewAgent
+
+TestingAgent
+
+DocumentationAgent
+
+GitAgent
+
+TerminalAgent
+
+based on capabilities.
+
+==================================================
+4. Execution Plan
+==================================================
+
+Generate:
+
+priority
+
+dependencies
+
+estimated duration
+
+required tools
+
+expected outputs
+
+rollback strategy
+
+==================================================
+5. Adaptive Replanning
+==================================================
+
+If a task fails:
+
+detect failure
+
+analyze cause
+
+replan remaining tasks
+
+reuse completed work
+
+avoid duplicate execution
+
+==================================================
+6. Execution Memory
+==================================================
+
+Persist:
+
+execution history
+
+completed subtasks
+
+failed attempts
+
+reasoning summary
+
+artifacts
+
+Support resume execution.
+
+==================================================
+7. Plan Visualization API
+==================================================
+
+Create backend API exposing:
+
+Execution Graph
+
+Current Status
+
+Completed Tasks
+
+Running Tasks
+
+Blocked Tasks
+
+Timeline
+
+(No UI redesign required.)
+
+==================================================
+8. Observability
+==================================================
+
+Track:
+
+planning latency
+
+execution latency
+
+agent utilization
+
+success rate
+
+retry count
+
+==================================================
+9. Documentation
+==================================================
+
+Update:
+
+README.md
+
+CURRENT_STATE.md
+
+IMPLEMENTATION_PLAN.md
+
+CHANGELOG.md
+
+==================================================
+10. Validation
+==================================================
+
+Run until all pass:
+
+pnpm typecheck
+
+pnpm lint
+
+pnpm test
+
+pnpm build
+
+Fix every issue.
+
+==================================================
+11. Final Report
+==================================================
+
+Output:
+
+Implemented modules
+
+Architecture summary
+
+Files added
+
+Files modified
+
+Tests added
+
+Build status
+
+Lint status
+
+Typecheck status
+
+Production readiness
+
+Remaining work
+
+Do not stop until every requirement above is complete.
 
 ```
 # 
