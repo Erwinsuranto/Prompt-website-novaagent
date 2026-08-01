@@ -36,9 +36,259 @@
 
 ```
 
-# 
+# Prompt 31 — AI Provider Manager & Review Pipeline
 ```
+# Prompt 31 — AI Provider Manager & Review Pipeline
 
+Continue NovaAgent from the current repository state.
+
+IMPORTANT
+
+- Do NOT rewrite completed modules.
+- Preserve all functionality from Prompts 26–30.
+- Extend the current architecture.
+- Build production-ready provider abstraction.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Implement a provider-agnostic AI system where NovaAgent
+coordinates multiple AI roles.
+
+NovaAgent is always the controller.
+
+==================================================
+1. AI Provider Manager
+==================================================
+
+Create a ProviderManager.
+
+Support:
+
+- Provider Registry
+- Dynamic Provider Loading
+- Health Checks
+- Provider Priority
+- Automatic Failover
+- Usage Metrics
+
+Supported provider types:
+
+- OpenAI-compatible
+- Anthropic-compatible
+- Gemini-compatible
+- Custom OpenAI endpoint
+
+No provider-specific logic outside adapters.
+
+==================================================
+2. AI Roles
+==================================================
+
+Implement configurable AI roles.
+
+Roles:
+
+CoderAI
+
+ReviewerAI
+
+PlannerAI
+
+OptionalSummarizerAI
+
+Each role can use different providers/models.
+
+==================================================
+3. Coding Pipeline
+==================================================
+
+Workflow:
+
+Receive task
+
+↓
+
+PlannerAI creates execution plan
+
+↓
+
+CoderAI generates patch
+
+↓
+
+NovaAgent applies patch
+
+↓
+
+Run:
+
+typecheck
+
+lint
+
+tests
+
+build
+
+↓
+
+ReviewerAI reviews:
+
+patch
+
+diff
+
+logs
+
+errors
+
+test results
+
+↓
+
+If rejected:
+
+send review feedback back to CoderAI
+
+↓
+
+Generate improved patch
+
+↓
+
+Repeat until accepted or retry limit reached
+
+==================================================
+4. Patch Engine
+==================================================
+
+Implement patch pipeline.
+
+Support:
+
+Unified Patch object
+
+Diff metadata
+
+Rollback
+
+Patch validation
+
+Conflict detection
+
+==================================================
+5. Review Engine
+==================================================
+
+Reviewer checks:
+
+Correctness
+
+Security
+
+Performance
+
+Maintainability
+
+Code Style
+
+Architecture
+
+Potential regressions
+
+Return structured review.
+
+==================================================
+6. Provider Configuration
+==================================================
+
+Configuration example:
+
+PlannerAI -> Provider A
+
+CoderAI -> Provider B
+
+ReviewerAI -> Provider C
+
+Allow runtime switching.
+
+==================================================
+7. Metrics
+==================================================
+
+Track:
+
+provider latency
+
+token usage
+
+review iterations
+
+success rate
+
+patch acceptance rate
+
+==================================================
+8. Documentation
+==================================================
+
+Update:
+
+README.md
+
+CURRENT_STATE.md
+
+IMPLEMENTATION_PLAN.md
+
+CHANGELOG.md
+
+==================================================
+9. Validation
+==================================================
+
+Run until green:
+
+pnpm typecheck
+
+pnpm lint
+
+pnpm test
+
+pnpm build
+
+Fix every issue.
+
+==================================================
+10. Final Report
+==================================================
+
+Output:
+
+Implemented providers
+
+Implemented AI roles
+
+Pipeline architecture
+
+Files added
+
+Files modified
+
+Tests added
+
+Build status
+
+Lint status
+
+Typecheck status
+
+Production readiness
+
+Remaining work
+
+Do not stop until every requirement above is complete.
 
 ```
 
