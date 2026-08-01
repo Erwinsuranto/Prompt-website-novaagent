@@ -14,10 +14,200 @@
 
 ```
 
-# 
+# Prompt 35 — Plugin System & MCP Platform
 ```
 
+# Prompt 35 — Plugin System & MCP Platform
 
+Continue NovaAgent from the current repository state.
+
+IMPORTANT
+
+- Do NOT rewrite completed modules.
+- Preserve all functionality from Prompts 26–34.
+- Keep all tests green.
+- Extend the existing architecture.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Transform NovaAgent into an extensible platform by
+implementing a production-ready Plugin System and
+Model Context Protocol (MCP) integration.
+
+NovaAgent remains the controller.
+
+==================================================
+1. Plugin Manager
+==================================================
+
+Implement:
+
+- Plugin Registry
+- Plugin Loader
+- Plugin Lifecycle
+- Plugin Metadata
+- Plugin Versioning
+- Plugin Dependencies
+- Enable / Disable Plugin
+- Hot Reload (development)
+
+==================================================
+2. Plugin SDK
+==================================================
+
+Provide an SDK for plugin developers.
+
+Support:
+
+- Tool registration
+- Event hooks
+- Command registration
+- Configuration
+- Logging
+- Storage
+- Permissions
+
+==================================================
+3. Plugin Sandbox
+==================================================
+
+Every plugin runs in an isolated environment.
+
+Support:
+
+- Resource limits
+- Permission checks
+- Safe execution
+- Crash isolation
+- Plugin timeout
+
+==================================================
+4. MCP Client
+==================================================
+
+Implement MCP Client.
+
+Support:
+
+- Multiple MCP Servers
+- Auto Discovery
+- Tool Discovery
+- Tool Metadata
+- Version Negotiation
+- Connection Retry
+- Health Check
+
+==================================================
+5. Tool Registry
+==================================================
+
+Merge built-in tools and MCP tools into a unified registry.
+
+Support:
+
+- Search
+- Categories
+- Permissions
+- Version
+- Availability
+- Dynamic loading
+
+==================================================
+6. Plugin Marketplace Foundation
+==================================================
+
+Implement backend foundation for:
+
+- Install
+- Update
+- Remove
+- Verify
+- Signature validation
+- Compatibility checks
+
+(No UI redesign.)
+
+==================================================
+7. Integration
+==================================================
+
+PlannerAI can discover tools dynamically.
+
+CoderAI can request plugin tools.
+
+ReviewerAI validates plugin outputs.
+
+BrowserAgent can discover plugin documentation.
+
+==================================================
+8. Documentation
+==================================================
+
+Update:
+
+README.md
+
+CURRENT_STATE.md
+
+IMPLEMENTATION_PLAN.md
+
+CHANGELOG.md
+
+Create:
+
+PLUGIN_SDK.md
+
+MCP_GUIDE.md
+
+==================================================
+9. Validation
+==================================================
+
+Run until green:
+
+pnpm typecheck
+
+pnpm lint
+
+pnpm test
+
+pnpm build
+
+Fix every issue.
+
+==================================================
+10. Final Report
+==================================================
+
+Output:
+
+Implemented modules
+
+Plugin architecture
+
+MCP architecture
+
+SDK overview
+
+Files added
+
+Files modified
+
+Tests added
+
+Build status
+
+Lint status
+
+Typecheck status
+
+Production readiness
+
+Remaining work
+
+Do not stop until every requirement above is complete.
 ```
 # Prompt 34 — Browser Agent & Documentation Intelligence
 ```
