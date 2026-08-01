@@ -7,9 +7,258 @@
 
 
 
+
+
+
 # 
 ```
 
+
+```
+
+# 
+```
+
+
+```
+
+# 
+```
+
+
+```
+
+
+# 
+```
+
+
+```
+# 
+```
+
+
+```
+# 
+```
+
+
+```
+# 
+```
+# Prompt 27 — AI Agent Runtime
+
+Continue NovaAgent from the current repository state.
+
+IMPORTANT:
+- Do NOT redesign the UI.
+- Do NOT rewrite completed modules.
+- Build on top of Prompt 26.
+- Preserve all existing functionality.
+
+OBJECTIVE
+
+Implement the core AI Agent Runtime that powers NovaAgent.
+
+========================
+1. Agent Runtime
+========================
+
+Create a modular runtime capable of executing agent tasks.
+
+Features:
+- Task Queue
+- Agent Session
+- Context Manager
+- Memory Cache
+- Tool Registry
+- Event Bus
+- Cancellation
+- Retry
+- Timeout
+- Progress Events
+
+========================
+2. Tool Calling
+========================
+
+Implement a unified tool interface.
+
+Built-in tools:
+
+- Terminal
+- FileSystem
+- Search Files
+- Read File
+- Write File
+- Edit File
+- Git
+- Shell
+- HTTP
+- Workspace
+
+Every tool must expose:
+
+name
+description
+schema
+permissions
+
+========================
+3. Workspace Execution
+========================
+
+Each workspace has:
+
+working directory
+
+terminal session
+
+git repository
+
+environment variables
+
+temporary storage
+
+Workspace isolation is required.
+
+========================
+4. Terminal Service
+========================
+
+Support:
+
+persistent sessions
+
+multiple terminals
+
+streaming output
+
+stdin/stdout
+
+kill process
+
+restart session
+
+========================
+5. Git Integration
+========================
+
+Implement:
+
+status
+
+diff
+
+commit
+
+branch
+
+checkout
+
+stash
+
+log
+
+pull
+
+push
+
+========================
+6. File Operations
+========================
+
+Implement secure operations:
+
+read
+
+write
+
+rename
+
+move
+
+delete
+
+search
+
+watch changes
+
+Prevent access outside workspace.
+
+========================
+7. Event System
+========================
+
+Emit events:
+
+Task Started
+
+Task Progress
+
+Task Completed
+
+Task Failed
+
+Tool Started
+
+Tool Finished
+
+Terminal Output
+
+Git Changed
+
+========================
+8. Documentation
+========================
+
+Update:
+
+README.md
+
+CURRENT_STATE.md
+
+IMPLEMENTATION_PLAN.md
+
+CHANGELOG.md
+
+========================
+9. Validation
+========================
+
+Run until all pass:
+
+pnpm typecheck
+
+pnpm lint
+
+pnpm build
+
+Fix every issue.
+
+========================
+10. Final Report
+========================
+
+Output:
+
+Completed modules
+
+Files added
+
+Files modified
+
+Build status
+
+Lint status
+
+Typecheck status
+
+Remaining work
+
+Production readiness percentage
+
+Do not stop until everything in this prompt is complete.
 
 ```
 # 
