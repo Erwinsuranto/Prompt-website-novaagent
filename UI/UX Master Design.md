@@ -24,9 +24,214 @@
 
 
 ```
-# 
+# Prompt 33 — Git Intelligence & Workspace Management
 ```
+# Prompt 33 — Git Intelligence & Workspace Management
 
+Continue NovaAgent from the current repository state.
+
+IMPORTANT
+
+- Do NOT rewrite completed modules.
+- Preserve all functionality from Prompts 26–32.
+- Extend the existing runtime.
+- Keep all tests green.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Implement an intelligent Git and Workspace Management
+system allowing NovaAgent to safely manage repositories,
+branches, commits, rollbacks, and multiple workspaces.
+
+==================================================
+1. Workspace Manager
+==================================================
+
+Implement:
+
+- Multiple Workspaces
+- Active Workspace
+- Workspace Metadata
+- Workspace Isolation
+- Workspace Switching
+- Workspace Snapshot
+
+==================================================
+2. Git Intelligence
+==================================================
+
+Implement:
+
+- Repository Detection
+- Branch Detection
+- Dirty Workspace Detection
+- Commit History Analysis
+- File Change Analysis
+- Conflict Detection
+
+==================================================
+3. Automatic Branch Strategy
+==================================================
+
+Support:
+
+Create feature branch automatically.
+
+Reuse branch when appropriate.
+
+Protect main/master.
+
+Support configurable branch naming.
+
+==================================================
+4. Smart Commit Engine
+==================================================
+
+Generate:
+
+Commit Message
+
+Commit Summary
+
+Changed Files
+
+Breaking Change Detection
+
+Support:
+
+Conventional Commits
+
+==================================================
+5. Diff Engine
+==================================================
+
+Generate structured diff.
+
+Categorize:
+
+Added
+
+Modified
+
+Deleted
+
+Renamed
+
+Binary
+
+Large Files
+
+==================================================
+6. Safe Rollback
+==================================================
+
+Support:
+
+Undo last patch
+
+Undo session
+
+Restore branch
+
+Restore workspace snapshot
+
+==================================================
+7. Multi-Workspace Execution
+==================================================
+
+Each workspace has:
+
+Own memory
+
+Own git state
+
+Own execution history
+
+Own terminal session
+
+Own AI context
+
+==================================================
+8. Review Before Commit
+==================================================
+
+Before commit:
+
+ReviewerAI checks:
+
+Diff
+
+Commit message
+
+Architecture impact
+
+Security
+
+Regression
+
+Reject if needed.
+
+==================================================
+9. Documentation
+==================================================
+
+Update:
+
+README.md
+
+CURRENT_STATE.md
+
+IMPLEMENTATION_PLAN.md
+
+CHANGELOG.md
+
+==================================================
+10. Validation
+==================================================
+
+Run until all pass:
+
+pnpm typecheck
+
+pnpm lint
+
+pnpm test
+
+pnpm build
+
+Fix every issue.
+
+==================================================
+11. Final Report
+==================================================
+
+Output:
+
+Implemented modules
+
+Workspace architecture
+
+Git architecture
+
+Files added
+
+Files modified
+
+Tests added
+
+Build status
+
+Lint status
+
+Typecheck status
+
+Production readiness
+
+Remaining work
+
+Do not stop until every requirement above is complete.
 
 ```
 
