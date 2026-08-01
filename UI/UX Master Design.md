@@ -30,9 +30,264 @@
 
 ```
 
-# 
+# Prompt 32 — Autonomous Coding Loop
 ```
+# Prompt 32 — Autonomous Coding Loop
 
+Continue NovaAgent from the current repository state.
+
+IMPORTANT
+
+- Do NOT rewrite completed modules.
+- Preserve all functionality from Prompts 26–31.
+- Extend the existing runtime.
+- Keep all tests green.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Implement a fully autonomous coding loop where
+NovaAgent can complete a coding task from start
+to finish with minimal user intervention.
+
+NovaAgent remains the controller.
+
+==================================================
+1. Goal Execution Engine
+==================================================
+
+Accept one high-level goal.
+
+Example:
+
+"Implement JWT authentication."
+
+Create execution session.
+
+Track progress.
+
+Support pause/resume.
+
+==================================================
+2. Autonomous Loop
+==================================================
+
+Workflow
+
+Receive Goal
+
+↓
+
+PlannerAI
+
+↓
+
+Execution Plan
+
+↓
+
+CoderAI
+
+↓
+
+Generate Patch
+
+↓
+
+NovaAgent
+
+Apply Patch
+
+↓
+
+Run
+
+Typecheck
+
+Lint
+
+Tests
+
+Build
+
+↓
+
+ReviewerAI
+
+↓
+
+PASS?
+
+YES → Finish
+
+NO
+
+↓
+
+Feedback
+
+↓
+
+CoderAI
+
+↓
+
+Generate Improved Patch
+
+↓
+
+Repeat
+
+Support configurable retry limit.
+
+==================================================
+3. Automatic Error Classification
+==================================================
+
+Categorize failures.
+
+Examples:
+
+TypeScript
+
+ESLint
+
+Runtime
+
+Unit Test
+
+Build
+
+Dependency
+
+Security
+
+Regression
+
+==================================================
+4. Smart Retry
+==================================================
+
+Retry only failed areas.
+
+Reuse previous successful work.
+
+Avoid duplicate edits.
+
+==================================================
+5. Rollback Engine
+==================================================
+
+Automatic rollback.
+
+Support:
+
+failed patch
+
+failed build
+
+failed test
+
+manual cancel
+
+==================================================
+6. Progress Reporting
+==================================================
+
+Expose:
+
+Current Step
+
+Current Agent
+
+Retries
+
+Completed Tasks
+
+Remaining Tasks
+
+Execution Timeline
+
+==================================================
+7. Review Feedback Loop
+==================================================
+
+ReviewerAI returns structured feedback.
+
+CoderAI must fix only rejected items.
+
+Repeat until accepted.
+
+==================================================
+8. Safety
+==================================================
+
+Never delete project files without confirmation.
+
+Prevent infinite retry loops.
+
+Limit repeated identical patches.
+
+==================================================
+9. Documentation
+==================================================
+
+Update
+
+README.md
+
+CURRENT_STATE.md
+
+IMPLEMENTATION_PLAN.md
+
+CHANGELOG.md
+
+==================================================
+10. Validation
+==================================================
+
+Run until green:
+
+pnpm typecheck
+
+pnpm lint
+
+pnpm test
+
+pnpm build
+
+Fix every issue.
+
+==================================================
+11. Final Report
+==================================================
+
+Output:
+
+Implemented modules
+
+Architecture summary
+
+Files added
+
+Files modified
+
+Tests added
+
+Retry statistics
+
+Build status
+
+Lint status
+
+Typecheck status
+
+Production readiness
+
+Remaining work
+
+Do not stop until every requirement above is complete.
 
 ```
 
