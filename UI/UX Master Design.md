@@ -4,16 +4,228 @@
 ```
 
 
-``
+```
 # 
 ```
 
 
-``
-# 
+```
+# Prompt 37 — Observability, Security & Policy Engine
 ```
 
+# Prompt 37 — Observability, Security & Policy Engine
 
+Continue NovaAgent from the current repository state.
+
+IMPORTANT
+
+- Do NOT rewrite completed modules.
+- Preserve all functionality from Prompts 26–36.
+- Keep all tests green.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Implement enterprise-grade observability,
+security, policy enforcement, auditing,
+and runtime governance.
+
+NovaAgent remains the controller.
+
+==================================================
+1. Audit Engine
+==================================================
+
+Log every action.
+
+Include:
+
+- AI request
+- AI response
+- Tool invocation
+- Terminal command
+- File changes
+- Git operations
+- Deployment events
+
+==================================================
+2. Policy Engine
+==================================================
+
+Implement policies.
+
+Examples:
+
+Allow
+
+Warn
+
+Require Confirmation
+
+Block
+
+Policies may target:
+
+terminal
+
+filesystem
+
+git
+
+deployment
+
+browser
+
+plugins
+
+==================================================
+3. Permission System
+==================================================
+
+Support:
+
+Workspace permissions
+
+Tool permissions
+
+Plugin permissions
+
+Provider permissions
+
+==================================================
+4. Secrets Protection
+==================================================
+
+Never expose secrets.
+
+Detect:
+
+API keys
+
+Passwords
+
+Private keys
+
+Tokens
+
+Automatically redact logs.
+
+==================================================
+5. Runtime Monitoring
+==================================================
+
+Track:
+
+CPU
+
+Memory
+
+Execution time
+
+Retries
+
+Agent activity
+
+Tool usage
+
+Provider usage
+
+==================================================
+6. Incident Recovery
+==================================================
+
+Detect:
+
+stuck task
+
+crash
+
+timeout
+
+memory leak
+
+Automatically recover when possible.
+
+==================================================
+7. Security Review
+==================================================
+
+ReviewerAI performs:
+
+Security review
+
+Dependency review
+
+Permission review
+
+Risk classification
+
+==================================================
+8. Documentation
+==================================================
+
+Update:
+
+README.md
+
+CURRENT_STATE.md
+
+IMPLEMENTATION_PLAN.md
+
+CHANGELOG.md
+
+Create:
+
+SECURITY.md
+
+AUDIT_GUIDE.md
+
+==================================================
+9. Validation
+==================================================
+
+Run until green:
+
+pnpm typecheck
+
+pnpm lint
+
+pnpm test
+
+pnpm build
+
+==================================================
+10. Final Report
+==================================================
+
+Output:
+
+Implemented modules
+
+Security architecture
+
+Audit architecture
+
+Policy engine
+
+Files added
+
+Files modified
+
+Tests added
+
+Build status
+
+Lint status
+
+Typecheck status
+
+Production readiness
+
+Remaining work
+
+Do not stop until every requirement above is complete.
 ```
 
 # Prompt 36 — Cloud & Deployment Agent
