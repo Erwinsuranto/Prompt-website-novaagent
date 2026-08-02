@@ -1,16 +1,194 @@
 
 
+# 
+```
 
 
+``
+# 
+```
+
+
+``
 # 
 ```
 
 
 ```
 
-# 
+# Prompt 36 — Cloud & Deployment Agent
 ```
+# Prompt 36 — Cloud & Deployment Agent
 
+Continue NovaAgent from the current repository state.
+
+IMPORTANT
+
+- Do NOT rewrite completed modules.
+- Preserve all functionality from Prompts 26–35.
+- Keep all tests green.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Implement a production-ready Cloud & Deployment Agent.
+
+NovaAgent must be able to build, package, deploy,
+monitor, and rollback applications.
+
+==================================================
+1. Deployment Agent
+==================================================
+
+Implement DeploymentAgent.
+
+Support:
+
+- deployment planning
+- environment detection
+- pre-flight validation
+- deployment execution
+- deployment rollback
+
+==================================================
+2. Deployment Targets
+==================================================
+
+Support adapters for:
+
+- Docker
+- Docker Compose
+- Local Linux Server
+- VPS
+- Static Site
+
+Architecture must allow adding more providers later.
+
+==================================================
+3. Environment Manager
+==================================================
+
+Manage:
+
+- .env
+- secrets
+- environment profiles
+- staging
+- production
+- development
+
+==================================================
+4. Build Pipeline
+==================================================
+
+Support:
+
+- build
+- package
+- artifact generation
+- checksum
+- release bundle
+
+==================================================
+5. Health Checks
+==================================================
+
+Verify:
+
+- service running
+- HTTP endpoint
+- logs
+- startup timeout
+- restart detection
+
+==================================================
+6. Rollback
+==================================================
+
+Automatic rollback if deployment fails.
+
+Support:
+
+- previous build
+- previous artifact
+- previous environment
+
+==================================================
+7. Monitoring
+==================================================
+
+Track:
+
+deployment history
+
+deployment duration
+
+success rate
+
+rollback count
+
+==================================================
+8. Documentation
+==================================================
+
+Update:
+
+README.md
+
+CURRENT_STATE.md
+
+IMPLEMENTATION_PLAN.md
+
+CHANGELOG.md
+
+Create:
+
+DEPLOYMENT_GUIDE.md
+
+==================================================
+9. Validation
+==================================================
+
+Run until all pass:
+
+pnpm typecheck
+
+pnpm lint
+
+pnpm test
+
+pnpm build
+
+==================================================
+10. Final Report
+==================================================
+
+Output:
+
+Implemented modules
+
+Deployment architecture
+
+Supported deployment targets
+
+Files added
+
+Files modified
+
+Tests added
+
+Build status
+
+Lint status
+
+Typecheck status
+
+Production readiness
+
+Remaining work
+
+Do not stop until everything above is complete.
 
 ```
 
