@@ -1,5 +1,12 @@
 
 
+
+
+
+
+
+
+
 # 
 ```
 
@@ -9,6 +16,26 @@
 ```
 
 
+```
+# 
+```
+
+
+```
+# 
+```
+
+
+```
+# 
+```
+
+
+```
+# 
+```
+
+Before answering, inspect the current workspace. Confirm you can read the repository. List the project root files, detect package.json, run pwd and git status. If the repository is accessible, continue implementing Prompt 37. Do not claim you cannot access the repo unless these checks fail
 ```
 # Prompt 37 — Observability, Security & Policy Engine
 ```
