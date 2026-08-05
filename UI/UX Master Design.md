@@ -14,7 +14,57 @@
 ```
 # 
 ```
+Audit the NovaAgent repository and locate where AI providers are configured.
 
+Tasks:
+
+1. Search the entire repository for:
+   - process.env
+   - API_KEY
+   - PROVIDER
+   - NOTION
+   - OPENAI
+   - ANTHROPIC
+   - BASE_URL
+   - MODEL
+
+2. Identify:
+   - the provider configuration files
+   - environment variables
+   - provider registry
+   - provider manager
+   - where API keys are loaded
+
+3. Check whether a Notion-compatible OpenAI provider already exists.
+
+4. If it exists:
+   - tell me exactly which .env variables I must set
+   - show an example configuration
+   - identify the default model configuration
+   - identify the base URL configuration
+
+5. If it does NOT exist:
+   - implement a new Notion-compatible OpenAI provider
+   - support:
+     - base_url
+     - api_key
+     - default_model
+     - timeout
+     - retries
+   - integrate it into the ProviderManager
+   - document the required .env variables
+
+6. Update README.md with the configuration instructions.
+
+7. At the end output ONLY:
+   - Configuration file path
+   - .env variable names
+   - Example .env
+   - Provider registration location
+   - How to switch NovaAgent to use the Notion-compatible server
+
+Do not ask me to search manually.
+Inspect the repository yourself and implement any missing pieces.
 
 ```
 # Prompt 40 — Final Integration & NovaAgent v1.0 Release
