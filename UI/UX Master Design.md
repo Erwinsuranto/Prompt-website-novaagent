@@ -17,9 +17,286 @@
 
 
 ```
-# 
+# Prompt 40 — Final Integration & NovaAgent v1.0 Release
 ```
+# Prompt 40 — Final Integration & NovaAgent v1.0 Release
 
+Continue NovaAgent from the current repository state.
+
+IMPORTANT
+
+- This is the FINAL v1.0 integration sprint.
+- Do NOT redesign completed modules.
+- Do NOT rewrite stable implementations.
+- Preserve all functionality from Prompts 26–39.
+- Only integrate, verify, optimize, and fix remaining issues.
+- Keep the architecture provider-agnostic.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Deliver NovaAgent v1.0 as a production-ready autonomous AI engineering platform.
+
+==================================================
+1. Full System Audit
+==================================================
+
+Audit every implemented module.
+
+Verify:
+
+Runtime
+
+Planning
+
+Memory
+
+Learning
+
+Scheduler
+
+Performance
+
+Security
+
+Policy Engine
+
+Deployment
+
+Browser Agent
+
+Plugin/MCP
+
+Git Engine
+
+Provider Manager
+
+Tool Registry
+
+Workspace Manager
+
+Terminal Service
+
+No duplicated logic.
+
+No dead code.
+
+No broken dependency.
+
+==================================================
+2. End-to-End Integration
+==================================================
+
+Verify all modules communicate correctly.
+
+Validate:
+
+Planning → Execution
+
+Execution → Learning
+
+Learning → Memory
+
+Memory → Planning
+
+Scheduler → Runtime
+
+Runtime → Tool Engine
+
+Tool Engine → Provider
+
+Provider → Review
+
+Review → Git
+
+Git → Deployment
+
+Deployment → Monitoring
+
+==================================================
+3. Autonomous Goal Execution
+==================================================
+
+Validate complete autonomous workflow.
+
+User goal
+
+↓
+
+Planning
+
+↓
+
+Task graph
+
+↓
+
+Execution
+
+↓
+
+Verification
+
+↓
+
+Review
+
+↓
+
+Retry if needed
+
+↓
+
+Git
+
+↓
+
+Deployment
+
+↓
+
+Final report
+
+==================================================
+4. Reliability Verification
+==================================================
+
+Run stress validation.
+
+Verify:
+
+parallel goals
+
+long-running tasks
+
+retry loops
+
+provider failure
+
+tool failure
+
+workspace isolation
+
+resource cleanup
+
+==================================================
+5. Production Validation
+==================================================
+
+Run:
+
+pnpm typecheck
+
+pnpm lint
+
+pnpm test
+
+pnpm build
+
+Repeat until all are green.
+
+==================================================
+6. Documentation Audit
+==================================================
+
+Verify and update:
+
+README.md
+
+CURRENT_STATE.md
+
+IMPLEMENTATION_PLAN.md
+
+CHANGELOG.md
+
+Ensure every module from Prompts 26–40 is documented.
+
+==================================================
+7. Release Notes
+==================================================
+
+Create:
+
+RELEASE_NOTES_v1.0.md
+
+Include:
+
+Architecture overview
+
+Implemented engines
+
+Provider support
+
+Tool support
+
+Workspace support
+
+Security model
+
+Performance summary
+
+Learning capabilities
+
+Known limitations
+
+Future roadmap
+
+==================================================
+8. Final Production Report
+==================================================
+
+Output:
+
+Implemented modules
+
+Architecture summary
+
+Statistics:
+
+- packages
+- services
+- providers
+- tools
+- APIs
+- tests
+
+Validation results
+
+Typecheck
+
+Lint
+
+Tests
+
+Build
+
+Production readiness score
+
+Remaining limitations
+
+Recommended next milestones
+
+==================================================
+9. Version Tag
+==================================================
+
+Mark the project as:
+
+NovaAgent v1.0.0
+
+Do not create a Git tag or commit automatically.
+
+==================================================
+10. Completion Rule
+==================================================
+
+Do not stop until:
+
+- All validation passes.
+- Documentation is complete.
+- Final report is generated.
+- NovaAgent is production-ready.
 
 ```
 # Prompt 39 — Self-Improvement & Learning Engine
