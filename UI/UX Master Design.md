@@ -27,9 +27,244 @@
 
 
 ```
-# 
+# Prompt 38 — Performance & Optimization Engine
 ```
+# Prompt 38 — Performance & Optimization Engine
 
+Continue NovaAgent from the current repository state.
+
+IMPORTANT
+
+- Do NOT rewrite completed modules.
+- Preserve all functionality from Prompts 26–37.
+- Keep all tests green.
+- Extend the existing architecture only.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Implement a production-ready Performance &
+Optimization Engine that improves execution speed,
+resource efficiency, AI scheduling, and scalability.
+
+NovaAgent remains the controller.
+
+==================================================
+1. Performance Engine
+==================================================
+
+Implement PerformanceEngine.
+
+Track:
+
+- execution latency
+- task duration
+- agent utilization
+- queue time
+- build duration
+- tool latency
+- provider latency
+
+==================================================
+2. Intelligent Scheduler
+==================================================
+
+Implement Scheduler.
+
+Support:
+
+- priority queue
+- dependency-aware execution
+- parallel execution
+- task batching
+- cancellation
+- retry scheduling
+- starvation prevention
+
+==================================================
+3. Resource Manager
+==================================================
+
+Track:
+
+CPU
+
+Memory
+
+Disk
+
+Network
+
+Provider usage
+
+Terminal usage
+
+Workspace usage
+
+==================================================
+4. Smart Cache
+==================================================
+
+Implement cache layers.
+
+Support:
+
+Execution cache
+
+Tool cache
+
+Provider cache
+
+Documentation cache reuse
+
+Memory cache reuse
+
+Automatic invalidation
+
+==================================================
+5. Parallel Execution
+==================================================
+
+Run independent tasks in parallel.
+
+Examples:
+
+typecheck
+
+lint
+
+documentation lookup
+
+memory retrieval
+
+provider health checks
+
+==================================================
+6. Token Optimization
+==================================================
+
+Reduce AI usage.
+
+Support:
+
+Context compression
+
+Duplicate prompt elimination
+
+Prompt reuse
+
+Incremental context updates
+
+Response caching
+
+==================================================
+7. Adaptive Execution
+==================================================
+
+Automatically choose:
+
+Fast provider
+
+Cheap provider
+
+High-quality provider
+
+Fallback provider
+
+Based on:
+
+latency
+
+success rate
+
+cost
+
+==================================================
+8. Metrics Dashboard Backend
+==================================================
+
+Expose:
+
+execution metrics
+
+scheduler metrics
+
+provider metrics
+
+cache metrics
+
+resource metrics
+
+No UI redesign.
+
+==================================================
+9. Documentation
+==================================================
+
+Update:
+
+README.md
+
+CURRENT_STATE.md
+
+IMPLEMENTATION_PLAN.md
+
+CHANGELOG.md
+
+Create:
+
+PERFORMANCE.md
+
+==================================================
+10. Validation
+==================================================
+
+Run until all pass:
+
+pnpm typecheck
+
+pnpm lint
+
+pnpm test
+
+pnpm build
+
+Fix every issue.
+
+==================================================
+11. Final Report
+==================================================
+
+Output:
+
+Implemented modules
+
+Performance architecture
+
+Scheduler architecture
+
+Cache architecture
+
+Files added
+
+Files modified
+
+Tests added
+
+Performance improvements
+
+Build status
+
+Lint status
+
+Typecheck status
+
+Production readiness
+
+Remaining work
+
+Do not stop until every requirement above is complete.
 
 ```
 # 
