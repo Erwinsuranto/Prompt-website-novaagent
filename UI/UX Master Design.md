@@ -22,9 +22,218 @@
 
 
 ```
-# 
+# Prompt 39 — Self-Improvement & Learning Engine
 ```
+# Prompt 39 — Self-Improvement & Learning Engine
 
+Continue NovaAgent from the current repository state.
+
+IMPORTANT
+
+- Do NOT rewrite completed modules.
+- Preserve all functionality from Prompts 26–38.
+- Keep all tests green.
+- Extend the existing architecture only.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Implement a production-ready Self-Improvement &
+Learning Engine.
+
+NovaAgent remains the controller.
+
+==================================================
+1. Learning Engine
+==================================================
+
+Implement LearningEngine.
+
+Record:
+
+- successful executions
+- failed executions
+- retry history
+- recovery strategy
+- execution duration
+- tool effectiveness
+- provider effectiveness
+
+Generate reusable execution knowledge.
+
+==================================================
+2. Strategy Engine
+==================================================
+
+Implement StrategyEngine.
+
+Support:
+
+- strategy selection
+- strategy ranking
+- strategy reuse
+- automatic fallback strategy
+- confidence scoring
+
+==================================================
+3. Provider Intelligence
+==================================================
+
+Track every provider.
+
+Collect:
+
+- latency
+- success rate
+- failure rate
+- cost estimate
+- token usage
+- quality score
+
+Automatically recommend the best provider for each task.
+
+==================================================
+4. Execution Feedback
+==================================================
+
+After every completed goal:
+
+Analyze:
+
+- success
+- failure
+- bottleneck
+- retry count
+- execution quality
+
+Generate improvement suggestions.
+
+==================================================
+5. Knowledge Repository
+==================================================
+
+Store reusable knowledge.
+
+Examples:
+
+- debugging patterns
+- build recovery
+- test recovery
+- deployment recovery
+- provider recommendations
+- git workflow improvements
+
+==================================================
+6. Adaptive Planner
+==================================================
+
+Allow the planner to reuse previous successful plans.
+
+Support:
+
+- similar task lookup
+- plan reuse
+- plan refinement
+- confidence estimation
+
+==================================================
+7. Continuous Improvement
+==================================================
+
+After every completed execution:
+
+Evaluate:
+
+- execution speed
+- AI usage
+- cache efficiency
+- retry efficiency
+- scheduler efficiency
+
+Recommend better execution paths.
+
+==================================================
+8. Metrics
+==================================================
+
+Expose:
+
+learning metrics
+
+strategy metrics
+
+provider ranking
+
+execution history
+
+improvement history
+
+No UI redesign.
+
+==================================================
+9. Documentation
+==================================================
+
+Update:
+
+README.md
+
+CURRENT_STATE.md
+
+IMPLEMENTATION_PLAN.md
+
+CHANGELOG.md
+
+Create:
+
+LEARNING_ENGINE.md
+
+==================================================
+10. Validation
+==================================================
+
+Run until all pass:
+
+pnpm typecheck
+
+pnpm lint
+
+pnpm test
+
+pnpm build
+
+Fix every issue.
+
+==================================================
+11. Final Report
+==================================================
+
+Output:
+
+Implemented modules
+
+Learning architecture
+
+Strategy architecture
+
+Knowledge repository
+
+Provider ranking system
+
+Files added
+
+Files modified
+
+Tests added
+
+Validation results
+
+Production readiness
+
+Remaining work
+
+Do not stop until every requirement above is complete.
 
 ```
 # Prompt 38 — Performance & Optimization Engine
