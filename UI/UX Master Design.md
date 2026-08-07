@@ -7,6 +7,76 @@
 
 
 
+
+```
+
+INFO:     127.0.0.1:54790 - "GET /v1/models HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/uvicorn/protocols/http/httptools_impl.py", line 422, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/fastapi/applications.py", line 1163, in __call__
+    await super().__call__(scope, receive, send)
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/starlette/applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/fastapi/routing.py", line 2734, in app
+    await route.handle(scope, receive, send)
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/fastapi/routing.py", line 1281, in handle
+    await super().handle(scope, receive, send)
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/fastapi/routing.py", line 158, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/fastapi/routing.py", line 144, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/fastapi/routing.py", line 706, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/fastapi/routing.py", line 352, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Clickup-AI-to-OpenAI-Compatible/arenachat/openai_api.py", line 157, in list_models
+    raw = await client.fetch_available_models()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Clickup-AI-to-OpenAI-Compatible/arenachat/client.py", line 48, in fetch_available_models
+    data = await self._request("GET", url, headers=headers, stream=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Clickup-AI-to-OpenAI-Compatible/arenachat/client.py", line 59, in _request
+    body = await resp.atext()
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/curl_cffi/requests/models.py", line 391, in atext
+    return self._decode(await self.acontent())
+                        ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/curl_cffi/requests/models.py", line 396, in acontent
+    async for chunk in self.aiter_content():
+  File "/root/Clickup-AI-to-OpenAI-Compatible/.venv/lib/python3.11/site-packages/curl_cffi/requests/models.py", line 370, in aiter_content
+    assert self.queue and self.curl, "stream mode is not enabled."
+AssertionError: stream mode is not enabled.
+
+```
 # 
 ```
 
